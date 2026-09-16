@@ -1,6 +1,8 @@
 # 전체 데이터와 복원 범위
 
-이 저장소는 YCB mustard bottle, Gaussian Splatting, PhysX/OmniGibson을 이용한 물성 추론 연구의 공개 증거를 담는다. 연구실 책상 `mydesk` 렌더링 연구와 구분되는 후속 실험이다. 공개 `evidence/`의 선별 소스·수치·영상과 별도로, 비공개 `ResearchCollection/05-GSPhysicalInference/`에는 전체 원 프로젝트와 원 데이터·중간 결과·가중치·정답 파일을 보존하는 계획이 있다.
+**2026-09-16 최종 보존 상태:** 조사한 Windows 연구 원본과 WSL 전체 export, 연구별 직접 추출본, conda·Unity·Unreal 환경 archive의 로컬 내용 검증을 마쳤다. USB 전송·외부 사본 검증과 초기화 후 전체 실행은 아직 수행하지 않았다. 실제 복사 목록·해시·확인하지 못한 자료는 개인 보존 묶음의 `PRESERVATION_STATUS.md`와 `_control/manifests/`를 기준으로 확인한다.
+
+이 저장소는 YCB mustard bottle, Gaussian Splatting, PhysX/OmniGibson을 이용한 물성 추론 연구의 공개 증거를 담는다. 연구실 책상 `mydesk` 렌더링 연구와 구분되는 후속 실험이다. 공개 `evidence/`의 선별 소스·수치·영상과 별도로, 비공개 `ResearchCollection/05-GSPhysicalInference/`에는 전체 원 프로젝트와 원 데이터·중간 결과·가중치·정답 파일을 별도로 보존했다.
 
 공개 GitHub clone에는 비공개 `originals/`나 공유 runtime이 포함되지 않는다. 아래 경로는 컬렉션 배치 계약이며 2026-09-16 원본 조사 기준이다. **원본 존재 확인은 복사 완료, archive 무결성, 초기화 후 재현, USB 보관의 완료 확인과 다르다.** 실제 복사·검증 상태는 비공개 컬렉션의 `_control` 기록을 확인한다.
 
