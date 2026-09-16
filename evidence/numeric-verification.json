@@ -1,0 +1,15 @@
+{
+  "method": "Standard-library recomputation from public error columns; no simulator, training, oracle, or private data read",
+  "units": 12,
+  "mean_errors": {
+    "prior_only_error": 0.2882258820528868,
+    "prior_passive_error": 0.13446633961228993,
+    "fixed_final_error": 0.15053015843244316,
+    "adaptive_final_error": 0.14635886145803426
+  },
+  "fixed_minus_adaptive_auc_mean": -0.027459254139229006,
+  "two_sided_exact_sign_flip_pvalue": 0.79443359375,
+  "adaptive_wins": 8,
+  "fixed_wins": 4,
+  "python_source_ast_pass": 15
+}

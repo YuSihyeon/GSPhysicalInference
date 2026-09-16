@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "evidence_class": "omnigibson_r1pro_physical_contact_replication",
+  "robot": {
+    "model": "r1pro",
+    "contact_controller": "held_28dof_pose_plus_base_x_sweep"
+  },
+  "source_unit": "unit_005",
+  "gt_sha256": "778919fe2f06fc9ca8ff4cb6f19cbfd00765667cb3b9ed5676437674ccc5add9",
+  "gs_geometry": {
+    "collider_sha256": "1133f4433a8e05932b29fd2203bcac359407317551658f49343660b277515e66",
+    "gaussians_sha256": "b6093f0572023a73f717808e34ef03e27309a46734b5f4c552d2d6004163a394",
+    "extents_m": [
+      0.1234813816845417,
+      0.08263194933533669,
+      0.10026933625340462
+    ]
+  },
+  "contact": {
+    "success": true,
+    "first_contact_step": 35,
+    "contact_step_count": 3,
+    "object_displacement_m": 0.12638598234515236,
+    "eef_path_length_m": 0.9752577733598485,
+    "failure_reason": null
+  },
+  "command": {
+    "direction_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "base_delta_per_step_m": 0.008,
+    "max_control_steps": 55,
+    "executed_control_steps": 41,
+    "initial_surface_gap_m": 0.3,
+    "configured_pose_error_m": 0.00806264453040318
+  },
+  "video": {
+    "path": "r1_contact_replication.mp4",
+    "capture": "direct_simulator_rgb_per_control_step",
+    "fps": 15,
+    "frame_count": 71,
+    "duration_s": 4.733333333333333,
+    "resolution": [
+      640,
+      480
+    ]
+  }
+}

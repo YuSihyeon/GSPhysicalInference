@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "role": "evaluation_only_never_used_by_reconstruction_or_physics",
+  "frozen_geometry_manifest": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\gs_density_collider\\geometry_manifest.json",
+  "frozen_geometry_manifest_sha256": "9a95bbb3df1ae13afa1d59ebb3006da260a9c177a342fcf2a9ac2b9c42914d17",
+  "optimized_gaussian_sha256": "47f9e428a0ee576c2a3c575a2853d3751e661350dac42cb7bf4580affd3ccb04",
+  "reference": {
+    "source": "official_ycb_google_16k",
+    "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/006_mustard_bottle_google_16k.tgz",
+    "archive_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\evaluation_only\\006_mustard_bottle_google_16k.tgz",
+    "archive_sha256": "992621f78a4fa6267da71418e530cd547bd066775da0242e578ddfb561d7cb5d",
+    "mesh_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\evaluation_only\\google_16k\\006_mustard_bottle\\google_16k\\nontextured.ply",
+    "mesh_sha256": "0630e10cc921a98627c3f9baf79fb0e1236824b6a28bad1340a4f92f250e31c8"
+  },
+  "density_surface": {
+    "alignment": {
+      "candidate_object_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_object_origin_m": [
+        -0.015339000150561333,
+        -0.023498500231653452,
+        -0.0031530000269412994
+      ],
+      "selected_yaw_deg": 180,
+      "scale_fitted": false
+    },
+    "sample_count_per_mesh": 50000,
+    "seed": 20260831,
+    "candidate_extents_m": [
+      0.09271144,
+      0.10648792000000001,
+      0.21846514
+    ],
+    "reference_extents_m": [
+      0.0971979983150959,
+      0.06662100087851286,
+      0.19130100682377815
+    ],
+    "extent_relative_error_per_axis": [
+      0.046158957929888604,
+      0.5984136923158317,
+      0.14199681239129489
+    ],
+    "scale_error_l2_relative": 0.21563780469118168,
+    "candidate_volume_m3": 0.0003343777059822978,
+    "reference_volume_m3": 0.000612039158295571,
+    "volume_relative_error": 0.4536661560781747,
+    "surface": {
+      "symmetric_chamfer_mean_m": 0.007326361758796445,
+      "symmetric_chamfer_rms_m": 0.009156261827246596,
+      "symmetric_chamfer_p95_m": 0.01766693034807146,
+      "normal_consistency": 0.5392390172578762
+    }
+  },
+  "convex_physics_proxy": {
+    "alignment": {
+      "candidate_object_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_object_origin_m": [
+        -0.015339000150561333,
+        -0.023498500231653452,
+        -0.0031530000269412994
+      ],
+      "selected_yaw_deg": 180,
+      "scale_fitted": false
+    },
+    "sample_count_per_mesh": 50000,
+    "seed": 20260831,
+    "candidate_extents_m": [
+      0.09271144,
+      0.10648792000000001,
+      0.21846514
+    ],
+    "reference_extents_m": [
+      0.0971979983150959,
+      0.06662100087851286,
+      0.19130100682377815
+    ],
+    "extent_relative_error_per_axis": [
+      0.046158957929888604,
+      0.5984136923158317,
+      0.14199681239129489
+    ],
+    "scale_error_l2_relative": 0.21563780469118168,
+    "candidate_volume_m3": 0.0010071285501359114,
+    "reference_volume_m3": 0.000612039158295571,
+    "volume_relative_error": 0.6455295980417328,
+    "surface": {
+      "symmetric_chamfer_mean_m": 0.009842375280470798,
+      "symmetric_chamfer_rms_m": 0.011676822178722563,
+      "symmetric_chamfer_p95_m": 0.020808627468155858,
+      "normal_consistency": 0.8301699045919436
+    }
+  }
+}

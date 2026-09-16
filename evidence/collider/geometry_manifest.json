@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "geometry_parent": {
+    "type": "optimized_graphdeco_gaussians",
+    "path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\point_cloud\\iteration_7000\\point_cloud.ply",
+    "sha256": "47f9e428a0ee576c2a3c575a2853d3751e661350dac42cb7bf4580affd3ccb04",
+    "gaussian_count": 22843,
+    "retained_gaussian_count": 11359
+  },
+  "density": {
+    "opacity_cutoff": 0.05,
+    "spatial_quantile": 0.005,
+    "scale_quantile": 0.995,
+    "sigma_extent": 3.0,
+    "isovalue": 0.15,
+    "grid_shape": [
+      85,
+      92,
+      160
+    ],
+    "voxel_size_m": 0.001788893636418727,
+    "path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\gs_density_collider\\gs_occupancy_field.npz",
+    "sha256": "c52982519aacaf9fe5050572db94c4cb42d376bc9d9e01b359ffc51a893c5216"
+  },
+  "surface": {
+    "path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\gs_density_collider\\gs_density_surface.obj",
+    "sha256": "57f476d41c97eeeb5a58aca28d102645e101ffa76cdcfe7c56069a8a3b4bc34a",
+    "vertices": 50129,
+    "faces": 101518,
+    "watertight": true
+  },
+  "collider": {
+    "type": "single_convex_hull",
+    "path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\gs_density_collider\\gs_convex_collider.obj",
+    "npz_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\gs_density_collider\\gs_convex_collider.npz",
+    "sha256": "7c67e9aa4ff0e5f2ccaf14741e27abfbeeb144ad1d1468ca7c14ca2480b50e66",
+    "npz_sha256": "209bc9b5954539c3394b9733469631eacbb053e43fa396a7c590570e0120a19a",
+    "vertices": 158,
+    "faces": 312,
+    "watertight": true,
+    "volume_m3": 0.001007128548979434,
+    "extents_m": [
+      0.0927114300429821,
+      0.10648792237043381,
+      0.2184651419520378
+    ]
+  },
+  "object_from_reconstruction": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -0.006331438198685646
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.005056936293840408
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.016371510922908783
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

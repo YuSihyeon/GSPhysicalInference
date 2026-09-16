@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "evidence_class": "r1pro_physical_contact_with_optimized_3dgs_density_body",
+  "target_object_type": "USDObject",
+  "target_visible_in_physx": false,
+  "usd_sha256": "a8cee4514538248228dbd809e399a8dc9a965ac526a577891557b6a575cef868",
+  "collider_npz_sha256": "209bc9b5954539c3394b9733469631eacbb053e43fa396a7c590570e0120a19a",
+  "private_gt_sha256": "7049d0b6c6e40b0dadf10dfe2848ff1db0011f2b4f531c7088c729c0637e52f6",
+  "robot": {
+    "model": "r1pro",
+    "actuation": "zero-command gravity-compensated base; right-arm Cartesian IK at 1.500 mm increments",
+    "object_force_application": "none; motion transferred only through PhysX robot contact",
+    "collision_scope": "full robot model except right wrist camera housing; strict validation permits target contact only at right fingertips",
+    "approach_direction_world": [
+      0.7506795376207724,
+      -0.5701315562734818,
+      0.3338116839456656
+    ],
+    "controller_action_idx": {
+      "base": [
+        0,
+        1,
+        2
+      ],
+      "trunk": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "arm_left": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "gripper_left": [
+        14
+      ],
+      "arm_right": [
+        15,
+        16,
+        17
+      ],
+      "gripper_right": [
+        18
+      ]
+    },
+    "controller_joint_idx": {
+      "base": [
+        0,
+        1,
+        5
+      ],
+      "trunk": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "arm_left": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "gripper_left": [
+        24,
+        25
+      ],
+      "arm_right": [
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23
+      ],
+      "gripper_right": [
+        26,
+        27
+      ]
+    }
+  },
+  "contact": {
+    "success": true,
+    "first_contact_step": 23,
+    "contact_step_count": 1,
+    "object_displacement_m": 0.016677032027890934,
+    "eef_path_length_m": 0.07451609987809298,
+    "failure_reason": null
+  },
+  "strict_validation": {
+    "success": true,
+    "failure_reasons": [],
+    "first_finger_contact_step": 23,
+    "first_object_motion_step": 29,
+    "visible_gap_at_contact_m": 0.003766593720544442,
+    "maximum_object_speed_m_s": 0.018368022967196296,
+    "maximum_eef_speed_m_s": 0.06222161181299225,
+    "maximum_eef_transverse_step_m": 0.0003999029286212005
+  },
+  "minimum_collision_surface_gap_m": 0.0019177495394837258,
+  "contact_pairs": {
+    "23": [
+      [
+        "/World/scene_0/gs_probe_body/base_link",
+        "/World/scene_0/controllable__r1pro__robot_fmlvtx/right_gripper_finger_link1"
+      ]
+    ]
+  },
+  "physics_dt_s": 0.008333333333333333,
+  "physics_substeps_per_video_frame": 4,
+  "initial_gap_m": 0.035,
+  "loaded_probe_placement_error_m": 4.317337019821449e-07,
+  "experiment_mode": "gravity-free isolated collision for mass identification; support is out of contact",
+  "eef_increment_m": 0.0015,
+  "settle_steps": 80,
+  "object_extents_m": [
+    0.0927114300429821,
+    0.10648792237043381,
+    0.2184651419520378
+  ],
+  "video": {
+    "path": "r1_controller_contact_raw.mp4",
+    "fps": 15,
+    "frame_count": 84,
+    "resolution": [
+      640,
+      480
+    ]
+  },
+  "camera": {
+    "position_m": [
+      0.5486832857131958,
+      -1.4755579233169556,
+      1.597318172454834
+    ],
+    "orientation_xyzw": [
+      0.5254839658737183,
+      0.2399512082338333,
+      0.3390548527240753,
+      0.7425172328948975
+    ],
+    "intrinsic": [
+      [
+        518.2185937631658,
+        0.0,
+        320.0
+      ],
+      [
+        0.0,
+        518.2185937631657,
+        240.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "mass_identification_audit": {
+    "valid_for_reporting": false,
+    "invalid_reason": "contact impulse is sampled only at the final physics substep of each control frame",
+    "relative_error_percent": 88.71530068649004
+  },
+  "archive_note": "Exact hidden physics and numeric mass estimate/error/impulse inputs omitted; this is a redacted derivative."
+}

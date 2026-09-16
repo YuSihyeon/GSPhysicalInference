@@ -1,0 +1,80 @@
+{
+  "evidence_class": "omnigibson_physx_paired_pilot",
+  "independent_units": 12,
+  "failed_units": 0,
+  "mean_errors": {
+    "prior_only": 0.28822588205288674,
+    "prior_passive": 0.1344663396122899,
+    "fixed_final": 0.15053015843244313,
+    "adaptive_final": 0.14635886145803426
+  },
+  "paired_stage_contrasts": {
+    "prior_minus_passive": {
+      "mean_difference": 0.15375954244059686,
+      "median_difference": 0.0959539592534361,
+      "bootstrap_ci95": [
+        0.08658507987964251,
+        0.22893084794048746
+      ],
+      "exact_sign_flip_pvalue_two_sided": 0.00048828125
+    },
+    "passive_minus_fixed_final": {
+      "mean_difference": -0.016063818820153227,
+      "median_difference": 0.005748374401543903,
+      "bootstrap_ci95": [
+        -0.09161757524560185,
+        0.03264688324001993
+      ],
+      "exact_sign_flip_pvalue_two_sided": 0.93017578125
+    },
+    "passive_minus_adaptive_final": {
+      "mean_difference": -0.011892521845744323,
+      "median_difference": 0.006458332053052011,
+      "bootstrap_ci95": [
+        -0.08350652617776193,
+        0.03766252410851797
+      ],
+      "exact_sign_flip_pvalue_two_sided": 0.91796875
+    },
+    "fixed_auc_minus_adaptive_auc": {
+      "mean_difference": -0.027459254139228995,
+      "median_difference": 0.014851296843657168,
+      "bootstrap_ci95": [
+        -0.14987094854885746,
+        0.059861523359885815
+      ],
+      "exact_sign_flip_pvalue_two_sided": 0.79443359375
+    }
+  },
+  "adaptive_auc_wins": 8,
+  "fixed_auc_wins": 4,
+  "ties": 0,
+  "parameter_mean_absolute_error": {
+    "fixed": {
+      "mass_kg": 0.019904856004073015,
+      "static_friction": 0.0968710000211321,
+      "dynamic_friction": 0.05789514829626167,
+      "restitution": 0.09337649713507784
+    },
+    "adaptive": {
+      "mass_kg": 0.08072669137445813,
+      "static_friction": 0.11923737885801507,
+      "dynamic_friction": 0.03933937884551921,
+      "restitution": 0.08510728851444786
+    }
+  },
+  "mean_nominal_minus_effective_static_friction": 0.20354912895120278,
+  "adaptive_action_counts": {
+    "drop:0.1": 10,
+    "drop:0.25": 1,
+    "incline:2": 12,
+    "vertical_accel:0.8": 2,
+    "vertical_accel:1.5": 11
+  },
+  "worst_adaptive_unit": {
+    "unit_id": "unit_005",
+    "adaptive_minus_fixed_auc": 0.5940317768499104,
+    "adaptive_actions": "incline:2,vertical_accel:1.5,vertical_accel:0.8"
+  },
+  "main_hypothesis_supported_in_pilot": false
+}

@@ -1,0 +1,23 @@
+{
+  "source_map": "local-only",
+  "never_copied": [
+    "private/",
+    "oracle GT files",
+    "official evaluation mesh",
+    "training data",
+    "optimized large PLY and checkpoints",
+    "vendor/",
+    "full environment",
+    "core per-unit GT columns",
+    "core chart with nominal hidden-parameter scatter",
+    "final dashboard/video with possible exact-GT annotations"
+  ],
+  "derived_files": [
+    "core-pilot/per-unit-errors.csv",
+    "strict-contact/r1_contact_summary.public.json",
+    "final-evaluation/evaluation.public.json",
+    "final-evaluation/frozen-estimate-audit.json"
+  ],
+  "path_sanitization": "Personal absolute paths replaced with SOURCE_ROOT or LOCAL_PATH placeholders",
+  "source_excerpts": "Method evidence only; intentionally not a complete standalone executable package."
+}

@@ -1,0 +1,7233 @@
+{
+  "schema_version": 1,
+  "renderer": "official_graphdeco_gaussian_renderer",
+  "iteration": 7000,
+  "optimized_ply": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\point_cloud\\iteration_7000\\point_cloud.ply",
+  "optimized_ply_sha256": "47f9e428a0ee576c2a3c575a2853d3751e661350dac42cb7bf4580affd3ccb04",
+  "prepared_root": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half",
+  "training_view_count": 480,
+  "heldout_view_count": 120,
+  "heldout_training_overlap_count": 0,
+  "background": "white",
+  "resolution_scale": 1,
+  "summaries": {
+    "validation": {
+      "view_count": 60,
+      "mean_psnr_full_db": 32.82281179428101,
+      "mean_ssim_full": 0.9926350106795628,
+      "mean_l1_full": 0.0024084857432171702,
+      "mean_psnr_reference_foreground_db": 16.976886304219565,
+      "mean_l1_reference_foreground": 0.10698099955916404
+    },
+    "test": {
+      "view_count": 60,
+      "mean_psnr_full_db": 32.741681003570555,
+      "mean_ssim_full": 0.9926522394021352,
+      "mean_l1_full": 0.002406295734302451,
+      "mean_psnr_reference_foreground_db": 16.840518363316853,
+      "mean_l1_reference_foreground": 0.10683710758263866
+    }
+  },
+  "views": [
+    {
+      "split": "validation",
+      "image_name": "N1_21.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 21,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_21.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_21.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8913103263535631,
+          0.4533567721509922,
+          -0.005791310761648802,
+          0.10264964885479211
+        ],
+        [
+          0.06871041393568046,
+          0.12243857005741204,
+          -0.9900947811089016,
+          0.10173832758534973
+        ],
+        [
+          -0.4481570942786605,
+          -0.8828796258307978,
+          -0.14028109331117417,
+          0.7369157043491237
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.13975143432617,
+      "ssim_full": 0.9898638725280762,
+      "l1_full": 0.002417097333818674,
+      "psnr_reference_foreground_db": 22.480331420898438,
+      "l1_reference_foreground": 0.03948048874735832,
+      "reference_foreground_fraction": 0.04729384928941727
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_21.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 21,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_21.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_21.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8618539219197585,
+          0.5071470366887176,
+          0.0031145544437870534,
+          0.0321863059555324
+        ],
+        [
+          0.29537350180236077,
+          0.5069357565984214,
+          -0.8097966615854852,
+          0.025619849899511604
+        ],
+        [
+          -0.41226485625692333,
+          -0.6970064718923625,
+          -0.5867023661411463,
+          0.8302644756381904
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 26.79365348815918,
+      "ssim_full": 0.9848841428756714,
+      "l1_full": 0.005256262142211199,
+      "psnr_reference_foreground_db": 12.177275657653809,
+      "l1_reference_foreground": 0.14898410439491272,
+      "reference_foreground_fraction": 0.02821054495871067
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_21.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 21,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_21.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_21.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8192212150141722,
+          0.5707441108833017,
+          0.055926386998740654,
+          -0.0822672001931753
+        ],
+        [
+          0.4591898683396194,
+          0.7112530964713475,
+          -0.5322252319969086,
+          0.011386692668004184
+        ],
+        [
+          -0.3435422327530439,
+          -0.41032937093504496,
+          -0.8447535390059658,
+          0.887280467110545
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.69806671142578,
+      "ssim_full": 0.9902731776237488,
+      "l1_full": 0.002625134075060487,
+      "psnr_reference_foreground_db": 15.787485122680664,
+      "l1_reference_foreground": 0.10376330465078354,
+      "reference_foreground_fraction": 0.021619416773319244
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_21.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 21,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_21.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_21.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8432460158223909,
+          0.5370281697231882,
+          -0.023171139881902572,
+          0.0204667998089368
+        ],
+        [
+          0.5241245742684023,
+          0.8118891646055761,
+          -0.2571564019114159,
+          0.04626702410003786
+        ],
+        [
+          -0.11928783444941143,
+          -0.2289906751809387,
+          -0.9660919641693267,
+          0.9548854008414079
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 41.53266525268555,
+      "ssim_full": 0.9968271851539612,
+      "l1_full": 0.0007141743553802371,
+      "psnr_reference_foreground_db": 24.762399673461914,
+      "l1_reference_foreground": 0.04283905774354935,
+      "reference_foreground_fraction": 0.014645272865891457
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_21.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 21,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_21.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_21.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8360449599919788,
+          0.5476136339763981,
+          -0.03388410770810369,
+          0.02851664005488941
+        ],
+        [
+          0.5480174195075094,
+          0.8364606248332225,
+          -0.0032451533008011632,
+          0.11376446953262365
+        ],
+        [
+          0.026565631713574393,
+          -0.021282175330045637,
+          -0.9994205002024323,
+          0.9928548362089133
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.77437973022461,
+      "ssim_full": 0.9959721565246582,
+      "l1_full": 0.0019739174749702215,
+      "psnr_reference_foreground_db": 10.185937881469727,
+      "l1_reference_foreground": 0.21101120114326477,
+      "reference_foreground_fraction": 0.005679785739630461
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_24.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 24,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_24.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_24.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9113170300711754,
+          0.4116645843985118,
+          -0.005791429379065818,
+          0.10265293655962071
+        ],
+        [
+          0.06297641697278414,
+          0.12548423943098497,
+          -0.9900947816041139,
+          0.10173745087023145
+        ],
+        [
+          -0.4068602236733424,
+          -0.9026549593318741,
+          -0.14028108491899413,
+          0.7369218246581013
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.108551025390625,
+      "ssim_full": 0.9898163080215454,
+      "l1_full": 0.0024334958288818598,
+      "psnr_reference_foreground_db": 22.325571060180664,
+      "l1_reference_foreground": 0.04036369547247887,
+      "reference_foreground_fraction": 0.04722842574119568
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_24.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 24,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_24.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_24.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8843789771552006,
+          0.46675917244037446,
+          0.003114435534423342,
+          0.0321892084328865
+        ],
+        [
+          0.27162088881896257,
+          0.5200494766069897,
+          -0.8097966625258424,
+          0.025616126085552082
+        ],
+        [
+          -0.3795996806151423,
+          -0.7153211983602699,
+          -0.5867023654744451,
+          0.830269647161102
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 26.86651611328125,
+      "ssim_full": 0.9850690364837646,
+      "l1_full": 0.00519368564710021,
+      "psnr_reference_foreground_db": 12.22114372253418,
+      "l1_reference_foreground": 0.14805664122104645,
+      "reference_foreground_fraction": 0.028082655742764473
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_24.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 24,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_24.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_24.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8447321080135003,
+          0.5322592584241964,
+          0.05592626853986182,
+          -0.0822647983361337
+        ],
+        [
+          0.4258159777025498,
+          0.7317219820477883,
+          -0.5322252287530888,
+          0.011381205537119854
+        ],
+        [
+          -0.32420428563529186,
+          -0.4257734407050072,
+          -0.8447535488921784,
+          0.8872840945465308
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.67442512512207,
+      "ssim_full": 0.9904537200927734,
+      "l1_full": 0.0026073527988046408,
+      "psnr_reference_foreground_db": 15.731302261352539,
+      "l1_reference_foreground": 0.10370603203773499,
+      "reference_foreground_fraction": 0.021467197686433792
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_24.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 24,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_24.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_24.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8671724421151904,
+          0.4974686406248052,
+          -0.023171258724662032,
+          0.02046947571793198
+        ],
+        [
+          0.48602857363808855,
+          0.8352525441240937,
+          -0.25715639821235997,
+          0.04626075744429825
+        ],
+        [
+          -0.10857339104634219,
+          -0.23426083567070502,
+          -0.9660919623035694,
+          0.9548870146416778
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 41.28126525878906,
+      "ssim_full": 0.9967981576919556,
+      "l1_full": 0.0007233467767946422,
+      "psnr_reference_foreground_db": 24.81978988647461,
+      "l1_reference_foreground": 0.04276661202311516,
+      "reference_foreground_fraction": 0.014443738386034966
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_24.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 24,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_24.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_24.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8604684766208631,
+          0.5083757074631203,
+          -0.03388422646517684,
+          0.028519232222308455
+        ],
+        [
+          0.5087598462993813,
+          0.860902368334256,
+          -0.003245148671253758,
+          0.11375796467194643
+        ],
+        [
+          0.027521256061473383,
+          -0.020031281981958735,
+          -0.9994204961911471,
+          0.9928547790244573
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.66326332092285,
+      "ssim_full": 0.9959603548049927,
+      "l1_full": 0.0020106984302401543,
+      "psnr_reference_foreground_db": 10.084531784057617,
+      "l1_reference_foreground": 0.21454262733459473,
+      "reference_foreground_fraction": 0.005673539359122515
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_33.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 33,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_33.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_33.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9657327658542708,
+          0.25947386440160947,
+          -0.005791256163802445,
+          0.10264561901389177
+        ],
+        [
+          0.04193802768433493,
+          0.13399050744931384,
+          -0.990094816544064,
+          0.10173979680560685
+        ],
+        [
+          -0.25612775482053385,
+          -0.9564098795004005,
+          -0.1402808454658792,
+          0.7369054478584686
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.616477966308594,
+      "ssim_full": 0.9894221425056458,
+      "l1_full": 0.002541624242439866,
+      "psnr_reference_foreground_db": 21.804546356201172,
+      "l1_reference_foreground": 0.04298294708132744,
+      "reference_foreground_fraction": 0.045980095863342285
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_33.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 33,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_33.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_33.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9480223369602959,
+          0.31818854148302234,
+          0.0031145935924309772,
+          0.03218291884229067
+        ],
+        [
+          0.18429260213767168,
+          0.5570146885012994,
+          -0.8097968100648003,
+          0.025626047769963134
+        ],
+        [
+          -0.25940294027181887,
+          -0.7671314677828744,
+          -0.5867021609945099,
+          0.830255890319783
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 27.07989501953125,
+      "ssim_full": 0.9862520694732666,
+      "l1_full": 0.004994163755327463,
+      "psnr_reference_foreground_db": 12.316927909851074,
+      "l1_reference_foreground": 0.14564965665340424,
+      "reference_foreground_fraction": 0.0273708738386631
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_33.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 33,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_33.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_33.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9194454142359858,
+          0.3892202041049229,
+          0.055926406615644,
+          -0.08226976237806091
+        ],
+        [
+          0.3023731302241992,
+          0.7907632787798564,
+          -0.532225447580018,
+          0.011395764153910637
+        ],
+        [
+          -0.25137744600269063,
+          -0.47244160448657907,
+          -0.8447534018820589,
+          0.8872745732850925
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.91280174255371,
+      "ssim_full": 0.9911215305328369,
+      "l1_full": 0.0024553562980145216,
+      "psnr_reference_foreground_db": 15.901710510253906,
+      "l1_reference_foreground": 0.09936323016881943,
+      "reference_foreground_fraction": 0.020792238414287567
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_33.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 33,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_33.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_33.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9359878678833843,
+          0.3512688583568686,
+          -0.023171109679472425,
+          0.02046378811103257
+        ],
+        [
+          0.3451204757538728,
+          0.9026418534552264,
+          -0.2571566479917137,
+          0.046277381432581144
+        ],
+        [
+          -0.06941590877123505,
+          -0.2486923270621268,
+          -0.9660918993915061,
+          0.9548827084141154
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 41.17896270751953,
+      "ssim_full": 0.9967094659805298,
+      "l1_full": 0.000752877676859498,
+      "psnr_reference_foreground_db": 24.20307159423828,
+      "l1_reference_foreground": 0.04672311991453171,
+      "reference_foreground_fraction": 0.014222478494048119
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_33.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 33,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_33.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_33.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9311286050648045,
+          0.3631134669771883,
+          -0.03388408077368021,
+          0.028513766387840533
+        ],
+        [
+          0.36342269370730057,
+          0.9316187058150953,
+          -0.0032454081309313994,
+          0.1137752088449455
+        ],
+        [
+          0.030388592079931644,
+          -0.015336136254386738,
+          -0.9994205002881353,
+          0.9928548912992926
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.42696189880371,
+      "ssim_full": 0.9959447979927063,
+      "l1_full": 0.002105050254613161,
+      "psnr_reference_foreground_db": 9.910746574401855,
+      "l1_reference_foreground": 0.22231800854206085,
+      "reference_foreground_fraction": 0.005692936480045319
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_51.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 51,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_51.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_51.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9985943837094817,
+          -0.0526850494125849,
+          -0.0057915794282257,
+          0.1026625085514631
+        ],
+        [
+          -0.001664596459951516,
+          0.14039029425421365,
+          -0.9900948411126285,
+          0.10173748555241036
+        ],
+        [
+          0.052976277167289455,
+          -0.988693507032189,
+          -0.1402806587163238,
+          0.7369212406971777
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.745296478271484,
+      "ssim_full": 0.990649402141571,
+      "l1_full": 0.002353210235014558,
+      "psnr_reference_foreground_db": 22.81973648071289,
+      "l1_reference_foreground": 0.0390513651072979,
+      "reference_foreground_fraction": 0.04091082885861397
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_51.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 51,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_51.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_51.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9999579340003028,
+          0.008627376097057595,
+          0.00311425938643299,
+          0.032198798208427956
+        ],
+        [
+          0.0025399121239955916,
+          0.5867047929602249,
+          -0.8097969095791254,
+          0.025616153811582665
+        ],
+        [
+          -0.008813573409715676,
+          -0.8097549347173996,
+          -0.586702025413729,
+          0.8302696731875485
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 27.91411590576172,
+      "ssim_full": 0.9885227084159851,
+      "l1_full": 0.004316167905926704,
+      "psnr_reference_foreground_db": 12.907331466674805,
+      "l1_reference_foreground": 0.13297024369239807,
+      "reference_foreground_fraction": 0.024512240663170815
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_51.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 51,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_51.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_51.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9948085791003075,
+          0.08501862527235395,
+          0.055926061055881826,
+          -0.08225525240253612
+        ],
+        [
+          0.04234144415828272,
+          0.8455431012636508,
+          -0.5322255781264544,
+          0.011380869574571406
+        ],
+        [
+          -0.09253698209374557,
+          -0.5270945809456276,
+          -0.8447533425105432,
+          0.8872849474955099
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.7082633972168,
+      "ssim_full": 0.9924589395523071,
+      "l1_full": 0.0021618769969791174,
+      "psnr_reference_foreground_db": 16.410598754882812,
+      "l1_reference_foreground": 0.09414300322532654,
+      "reference_foreground_fraction": 0.018892619758844376
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_51.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 51,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_51.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_51.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.99877118488287,
+          0.043808722594245036,
+          -0.0231714495085708,
+          0.02047905706119829
+        ],
+        [
+          0.048300556873869104,
+          0.9651618713737827,
+          -0.25715679701678584,
+          0.04626037149686807
+        ],
+        [
+          0.011098488786402346,
+          -0.2579599927719776,
+          -0.9660918515729958,
+          0.9548868957011938
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 41.18073272705078,
+      "ssim_full": 0.9968865513801575,
+      "l1_full": 0.0007552396273240447,
+      "psnr_reference_foreground_db": 23.613664627075195,
+      "l1_reference_foreground": 0.05061948671936989,
+      "reference_foreground_fraction": 0.013319025747478008
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_51.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 51,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_51.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_51.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9978231206987402,
+          0.05657619386999765,
+          -0.03388442247126976,
+          0.028528805553182476
+        ],
+        [
+          0.05671826313171046,
+          0.9983849482876641,
+          -0.003245560038051174,
+          0.11375749859659526
+        ],
+        [
+          0.03364607594280651,
+          -0.0051603604353748665,
+          -0.9994204882099565,
+          0.9928544638248575
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.374927520751953,
+      "ssim_full": 0.9960260987281799,
+      "l1_full": 0.00213038083165884,
+      "psnr_reference_foreground_db": 9.836153030395508,
+      "l1_reference_foreground": 0.22780995070934296,
+      "reference_foreground_fraction": 0.005640333518385887
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_84.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 84,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_84.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_84.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8127886525950058,
+          -0.582529882647137,
+          -0.005791548662293396,
+          0.10268216928797366
+        ],
+        [
+          -0.07705922324115011,
+          0.11736229715094319,
+          -0.9900949284391495,
+          0.1017386378894537
+        ],
+        [
+          0.5774395919282516,
+          -0.804291630585925,
+          -0.14028004363831653,
+          0.7369123300237947
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.92877960205078,
+      "ssim_full": 0.9928743839263916,
+      "l1_full": 0.0021445858292281628,
+      "psnr_reference_foreground_db": 23.249004364013672,
+      "l1_reference_foreground": 0.03317975625395775,
+      "reference_foreground_fraction": 0.027197612449526787
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_84.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 84,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_84.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_84.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8469789783588729,
+          -0.5316172604915679,
+          0.0031142520130323093,
+          0.03221897288698855
+        ],
+        [
+          -0.3140397085794377,
+          0.4955879696246774,
+          -0.8097972745067938,
+          0.02562076263987889
+        ],
+        [
+          0.4289588227948017,
+          -0.6868592670341794,
+          -0.5867015217602284,
+          0.8302634271017624
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 27.84095001220703,
+      "ssim_full": 0.9919193387031555,
+      "l1_full": 0.0038837166503071785,
+      "psnr_reference_foreground_db": 11.96081256866455,
+      "l1_reference_foreground": 0.14773273468017578,
+      "reference_foreground_fraction": 0.016941385343670845
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_84.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 84,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_84.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_84.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8838091637990861,
+          -0.4644928888775772,
+          0.05592600617711885,
+          -0.0822345752842389
+        ],
+        [
+          -0.42000224446318574,
+          0.7350737982650332,
+          -0.5322261039728354,
+          0.011386730888161778
+        ],
+        [
+          0.20610549878799167,
+          -0.4938753560225289,
+          -0.8447530148410087,
+          0.8872826292369271
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.679576873779297,
+      "ssim_full": 0.9941753149032593,
+      "l1_full": 0.0023827513214200735,
+      "psnr_reference_foreground_db": 13.512044906616211,
+      "l1_reference_foreground": 0.11492394655942917,
+      "reference_foreground_fraction": 0.014335574582219124
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_84.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 84,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_84.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_84.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8649387790916393,
+          -0.5013421895227075,
+          -0.023171478762534288,
+          0.020499487198502572
+        ],
+        [
+          -0.47944602106622586,
+          0.8390480236082897,
+          -0.25715739725465214,
+          0.046267060950915206
+        ],
+        [
+          0.14836583605139383,
+          -0.21131593192090473,
+          -0.9660916910982986,
+          0.9548846300367844
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 39.251869201660156,
+      "ssim_full": 0.9970023036003113,
+      "l1_full": 0.0009085357887670398,
+      "psnr_reference_foreground_db": 20.649635314941406,
+      "l1_reference_foreground": 0.06810911744832993,
+      "reference_foreground_fraction": 0.011943133547902107
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_84.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 84,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_84.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_84.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.8710206432238444,
+          -0.4900764047280267,
+          -0.03388445966475065,
+          0.028549318000110194
+        ],
+        [
+          -0.49025948474261505,
+          0.8715704790373032,
+          -0.0032461809239681715,
+          0.11376428123199903
+        ],
+        [
+          0.031123571418241937,
+          0.013784687139606849,
+          -0.9994204849324617,
+          0.9928537511405277
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.351234436035156,
+      "ssim_full": 0.996234655380249,
+      "l1_full": 0.0017828484997153282,
+      "psnr_reference_foreground_db": 10.426704406738281,
+      "l1_reference_foreground": 0.21448779106140137,
+      "reference_foreground_fraction": 0.005512772127985954
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_198.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 198,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_198.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_198.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8629667735624317,
+          -0.5052274953714613,
+          -0.005790133670801155,
+          0.1026445999047279
+        ],
+        [
+          -0.0758234306689451,
+          -0.11816522342030872,
+          -0.9900948375461921,
+          0.101737373868927
+        ],
+        [
+          0.49953894251483283,
+          0.8548579752770097,
+          -0.14028074356965056,
+          0.7369221334076841
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.14914321899414,
+      "ssim_full": 0.9879533052444458,
+      "l1_full": 0.0033108782954514027,
+      "psnr_reference_foreground_db": 21.99005126953125,
+      "l1_reference_foreground": 0.04384997859597206,
+      "reference_foreground_fraction": 0.04798327386379242
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_198.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 198,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_198.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_198.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.830383641300351,
+          -0.557183363558872,
+          0.003115707622861681,
+          0.03218086867779464
+        ],
+        [
+          -0.3248086246545493,
+          -0.48859832628187877,
+          -0.8097969084310997,
+          0.025616153760508187
+        ],
+        [
+          0.4527276947689299,
+          0.6714300968289767,
+          -0.5867020193091566,
+          0.830269426277847
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.204025268554688,
+      "ssim_full": 0.9854844808578491,
+      "l1_full": 0.00432372372597456,
+      "psnr_reference_foreground_db": 13.627076148986816,
+      "l1_reference_foreground": 0.12063190340995789,
+      "reference_foreground_fraction": 0.028421614319086075
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_198.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 198,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_198.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_198.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.7840677416337956,
+          -0.6181503789512028,
+          0.05592750246312811,
+          -0.08227308144203252
+        ],
+        [
+          -0.5004111475270372,
+          -0.6828796083862445,
+          -0.5322256324914494,
+          0.011381619630279283
+        ],
+        [
+          0.3671872273921746,
+          0.3893142040212944,
+          -0.8447532128304182,
+          0.8872831891439505
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.63417434692383,
+      "ssim_full": 0.9908265471458435,
+      "l1_full": 0.0019427381921559572,
+      "psnr_reference_foreground_db": 19.607776641845703,
+      "l1_reference_foreground": 0.0706096664071083,
+      "reference_foreground_fraction": 0.02134423889219761
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_198.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 198,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_198.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_198.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8100427591784743,
+          -0.58591285979857,
+          -0.023170002701435526,
+          0.020461148059884998
+        ],
+        [
+          -0.5711787851361848,
+          -0.7795031399968927,
+          -0.25715685902837015,
+          0.04626125831392591
+        ],
+        [
+          0.1326104208306246,
+          0.22154226562361914,
+          -0.966091869766783,
+          0.9548869969958197
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 38.1629638671875,
+      "ssim_full": 0.9963986873626709,
+      "l1_full": 0.0011066265869885683,
+      "psnr_reference_foreground_db": 21.69023323059082,
+      "l1_reference_foreground": 0.061264459043741226,
+      "reference_foreground_fraction": 0.01398675236850977
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_198.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 198,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_198.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_198.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8022288582551507,
+          -0.5960543623335491,
+          -0.033882976932124616,
+          0.028510913174760413
+        ],
+        [
+          -0.5964819881763103,
+          -0.8026198998538385,
+          -0.0032456339673921294,
+          0.11375856046854735
+        ],
+        [
+          -0.02526057726720974,
+          0.022814326677780872,
+          -0.9994205369784869,
+          0.9928549778827275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.07146644592285,
+      "ssim_full": 0.9958401322364807,
+      "l1_full": 0.0022220048122107983,
+      "psnr_reference_foreground_db": 10.037393569946289,
+      "l1_reference_foreground": 0.2115521878004074,
+      "reference_foreground_fraction": 0.005627512000501156
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_201.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 201,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_201.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_201.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8889946590756928,
+          -0.4578809569211786,
+          -0.005790114319881822,
+          0.10264195908013937
+        ],
+        [
+          -0.06933059490718796,
+          -0.1220879912789986,
+          -0.9900948393943252,
+          0.10173632317010262
+        ],
+        [
+          0.45263866907800404,
+          0.8805904562703396,
+          -0.1402807313243274,
+          0.7369297192970474
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.5706787109375,
+      "ssim_full": 0.9881289005279541,
+      "l1_full": 0.0031713685020804405,
+      "psnr_reference_foreground_db": 22.060150146484375,
+      "l1_reference_foreground": 0.04345561936497688,
+      "reference_foreground_fraction": 0.04836135730147362
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_201.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 201,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_201.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_201.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8592652378705155,
+          -0.5115208140806254,
+          0.0031157261785228424,
+          0.032177763266640555
+        ],
+        [
+          -0.2979451644821783,
+          -0.5054281682502589,
+          -0.8097969163320367,
+          0.025611763151362044
+        ],
+        [
+          0.41580275365732366,
+          0.6949020243901164,
+          -0.5867020083053277,
+          0.8302754845459863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.231224060058594,
+      "ssim_full": 0.9856404066085815,
+      "l1_full": 0.004284622147679329,
+      "psnr_reference_foreground_db": 13.637622833251953,
+      "l1_reference_foreground": 0.11978878080844879,
+      "reference_foreground_fraction": 0.028447257354855537
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_201.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 201,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_201.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_201.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8163097876979988,
+          -0.5749003766099597,
+          0.05592751990007872,
+          -0.08227674523118653
+        ],
+        [
+          -0.4627981894241764,
+          -0.7089102193476017,
+          -0.5322256446003323,
+          0.011375404182622395
+        ],
+        [
+          0.34562431392214166,
+          0.40857784800238717,
+          -0.8447532040469495,
+          0.8872868726883604
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.78651809692383,
+      "ssim_full": 0.9909882545471191,
+      "l1_full": 0.0018883314915001392,
+      "psnr_reference_foreground_db": 19.685598373413086,
+      "l1_reference_foreground": 0.06965494155883789,
+      "reference_foreground_fraction": 0.021248238161206245
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_201.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 201,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_201.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_201.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8405057351565065,
+          -0.5413069932864848,
+          -0.023169984638864265,
+          0.02045778232354062
+        ],
+        [
+          -0.5282438730701773,
+          -0.8092148993376037,
+          -0.2571568728497259,
+          0.046254160472688155
+        ],
+        [
+          0.12045131685804757,
+          0.22838122888971746,
+          -0.9660918665209768,
+          0.9548889759118316
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 38.14924240112305,
+      "ssim_full": 0.9964167475700378,
+      "l1_full": 0.0011047163279727101,
+      "psnr_reference_foreground_db": 21.740699768066406,
+      "l1_reference_foreground": 0.06123233214020729,
+      "reference_foreground_fraction": 0.01378883421421051
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_201.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 201,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_201.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_201.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8332509854482691,
+          -0.5518557242023956,
+          -0.03388295905815852,
+          0.02850745454850985
+        ],
+        [
+          -0.5522616055962916,
+          -0.8336645516937434,
+          -0.0032456483906483057,
+          0.1137512365925986
+        ],
+        [
+          -0.026455892230149606,
+          0.02141669709173833,
+          -0.9994205375376211,
+          0.9928551275005908
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.939971923828125,
+      "ssim_full": 0.9957914352416992,
+      "l1_full": 0.0022678037639707327,
+      "psnr_reference_foreground_db": 9.88568115234375,
+      "l1_reference_foreground": 0.21658135950565338,
+      "reference_foreground_fraction": 0.005661703646183014
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_213.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 213,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_213.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_213.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9643958357837421,
+          -0.2643995930479428,
+          -0.0057902607074104915,
+          0.10265830634411899
+        ],
+        [
+          -0.0426204181440827,
+          -0.13377496621692436,
+          -0.9900948229189386,
+          0.10173577566409531
+        ],
+        [
+          0.2610060763281214,
+          0.9550901075865789,
+          -0.14028084156454124,
+          0.7369328505043983
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.43653869628906,
+      "ssim_full": 0.9887109994888306,
+      "l1_full": 0.002902900567278266,
+      "psnr_reference_foreground_db": 22.429655075073242,
+      "l1_reference_foreground": 0.0430629625916481,
+      "reference_foreground_fraction": 0.04769593104720116
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_213.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 213,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_213.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_213.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9463859488851486,
+          -0.3230231088808418,
+          0.00311558689702633,
+          0.0321938853050904
+        ],
+        [
+          -0.18713243011579234,
+          -0.5560670117619528,
+          -0.8097968461466679,
+          0.025609348782645536
+        ],
+        [
+          0.26331556989991156,
+          0.7657973292974375,
+          -0.5867021059184949,
+          0.8302788886555384
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.40821075439453,
+      "ssim_full": 0.9870263934135437,
+      "l1_full": 0.004038313403725624,
+      "psnr_reference_foreground_db": 13.645333290100098,
+      "l1_reference_foreground": 0.11761651188135147,
+      "reference_foreground_fraction": 0.02780221588909626
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_213.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 213,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_213.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_213.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9174468015089269,
+          -0.39390797580193565,
+          0.055927390433145485,
+          -0.08226101411913778
+        ],
+        [
+          -0.30640474144533486,
+          -0.7892098016975302,
+          -0.532225538023461,
+          0.011371304851033659
+        ],
+        [
+          0.2537863290661208,
+          0.4711521999356118,
+          -0.8447532797657408,
+          0.8872904872223768
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 35.336299896240234,
+      "ssim_full": 0.9922367334365845,
+      "l1_full": 0.00166224071290344,
+      "psnr_reference_foreground_db": 19.666475296020508,
+      "l1_reference_foreground": 0.06626340001821518,
+      "reference_foreground_fraction": 0.02053547091782093
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_213.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 213,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_213.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_213.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9341828196585706,
+          -0.3560415776479378,
+          -0.023170119566592186,
+          0.02047374305371963
+        ],
+        [
+          -0.3497228236369911,
+          -0.9008686652003017,
+          -0.25715675119972364,
+          0.046249484567747634
+        ],
+        [
+          0.07068526071348051,
+          0.2483345385688306,
+          -0.9660918956660765,
+          0.9548898292974773
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 38.1922607421875,
+      "ssim_full": 0.9964197278022766,
+      "l1_full": 0.0011126353638246655,
+      "psnr_reference_foreground_db": 21.203954696655273,
+      "l1_reference_foreground": 0.06631583720445633,
+      "reference_foreground_fraction": 0.01352450530976057
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_213.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 213,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_213.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_213.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9292631754659039,
+          -0.36786123304441715,
+          -0.03388309233328733,
+          0.028523348369918516
+        ],
+        [
+          -0.36817294534158795,
+          -0.9297516598038478,
+          -0.003245521605289874,
+          0.11374629273075243
+        ],
+        [
+          -0.030308959756566695,
+          0.01549078161460224,
+          -0.9994205334309695,
+          0.9928545965269608
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.725229263305664,
+      "ssim_full": 0.9957799315452576,
+      "l1_full": 0.0023451694287359715,
+      "psnr_reference_foreground_db": 9.703123092651367,
+      "l1_reference_foreground": 0.22445695102214813,
+      "reference_foreground_fraction": 0.005636388435959816
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_255.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 255,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_255.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_255.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8951675071391121,
+          0.4456922779874627,
+          -0.0057902940075701,
+          0.10265919169976254
+        ],
+        [
+          0.05739215619976053,
+          -0.12813444651477535,
+          -0.9900947954731883,
+          0.10173631163505836
+        ],
+        [
+          -0.4420195409357941,
+          0.885968372437018,
+          -0.14028103390056484,
+          0.7369289885446503
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.67082977294922,
+      "ssim_full": 0.9924284815788269,
+      "l1_full": 0.0022228623274713755,
+      "psnr_reference_foreground_db": 23.21688461303711,
+      "l1_reference_foreground": 0.03709196299314499,
+      "reference_foreground_fraction": 0.03330380842089653
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_255.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 255,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_255.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_255.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9208157146530831,
+          0.3899855290893758,
+          0.0031155655685468804,
+          0.032195008062048655
+        ],
+        [
+          0.2311308314807085,
+          -0.5392659759606919,
+          -0.8097967312296332,
+          0.025611598173368333
+        ],
+        [
+          -0.31412888817644363,
+          0.7463936590513363,
+          -0.5867022646462081,
+          0.8302757797150803
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.689245223999023,
+      "ssim_full": 0.9925742745399475,
+      "l1_full": 0.002935663564130664,
+      "psnr_reference_foreground_db": 13.65898323059082,
+      "l1_reference_foreground": 0.11317095905542374,
+      "reference_foreground_fraction": 0.020089661702513695
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_255.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 255,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_255.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_255.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9464889095146178,
+          0.3178535383864887,
+          0.055927384178227436,
+          -0.08225960278859612
+        ],
+        [
+          0.2976119077128634,
+          -0.7925675405290619,
+          -0.5322253715177662,
+          0.01137450825458619
+        ],
+        [
+          -0.12484348822962388,
+          0.5203900670025354,
+          -0.8447533850845209,
+          0.8872885553309807
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 35.41736602783203,
+      "ssim_full": 0.9952311515808105,
+      "l1_full": 0.0014092933852225542,
+      "psnr_reference_foreground_db": 18.56747055053711,
+      "l1_reference_foreground": 0.0701475739479065,
+      "reference_foreground_fraction": 0.015375794842839241
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_255.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 255,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_255.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_255.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9337262635266708,
+          0.3572371896819476,
+          -0.023170133980340214,
+          0.020474999699646668
+        ],
+        [
+          0.33974289471344293,
+          -0.904679649685334,
+          -0.2571565611392257,
+          0.04625314328084873
+        ],
+        [
+          -0.11282743590214736,
+          0.23224194658451794,
+          -0.966091945911144,
+          0.9548888190935171
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 36.41332244873047,
+      "ssim_full": 0.9955642819404602,
+      "l1_full": 0.0013576188357546926,
+      "psnr_reference_foreground_db": 19.33148193359375,
+      "l1_reference_foreground": 0.08320222795009613,
+      "reference_foreground_fraction": 0.011709708720445633
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_255.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 255,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_255.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_255.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9379368998703793,
+          0.3451467906696663,
+          -0.0338831042257383,
+          0.028524653034014774
+        ],
+        [
+          0.3452400104941732,
+          -0.938508818829435,
+          -0.00324532484698676,
+          0.11375007159312009
+        ],
+        [
+          -0.03291970558079029,
+          -0.008653893332413978,
+          -0.9994205336667171,
+          0.992854534049876
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.668195724487305,
+      "ssim_full": 0.9957442283630371,
+      "l1_full": 0.0023388725239783525,
+      "psnr_reference_foreground_db": 9.603094100952148,
+      "l1_reference_foreground": 0.23522479832172394,
+      "reference_foreground_fraction": 0.005562087055295706
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_267.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 267,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_267.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_267.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.7838629941008309,
+          0.6209068187947354,
+          -0.005790410476144574,
+          0.10266768092212025
+        ],
+        [
+          0.08261029853258539,
+          -0.11352462089177878,
+          -0.990094792950521,
+          0.10173771328855363
+        ],
+        [
+          -0.6154139623502526,
+          0.7756203213077771,
+          -0.14028104689794246,
+          0.7369187107031149
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.24844741821289,
+      "ssim_full": 0.9928331971168518,
+      "l1_full": 0.002358340658247471,
+      "psnr_reference_foreground_db": 22.37189292907715,
+      "l1_reference_foreground": 0.04002011939883232,
+      "reference_foreground_fraction": 0.029415806755423546
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_267.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 267,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_267.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_267.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8204598708182487,
+          0.5716956308626137,
+          0.003115450128157984,
+          0.03220411730956477
+        ],
+        [
+          0.33748832938359036,
+          -0.4799280159285274,
+          -0.8097967195887993,
+          0.025617386252548058
+        ],
+        [
+          -0.46146205467706275,
+          0.6654571400018976,
+          -0.5867022813264992,
+          0.8302678307966327
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.123878479003906,
+      "ssim_full": 0.9925501346588135,
+      "l1_full": 0.003156878985464573,
+      "psnr_reference_foreground_db": 13.031984329223633,
+      "l1_reference_foreground": 0.12326005846261978,
+      "reference_foreground_fraction": 0.01803223416209221
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_267.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 267,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_267.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_267.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8604723695271944,
+          0.5064182477556763,
+          0.055927270810636406,
+          -0.08224978262765734
+        ],
+        [
+          0.45483394058211774,
+          -0.7140464011710554,
+          -0.532225350269232,
+          0.011382503893351714
+        ],
+        [
+          -0.2295939628448417,
+          0.48340282923741196,
+          -0.844753405977429,
+          0.8872841621823089
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.97576904296875,
+      "ssim_full": 0.9949702024459839,
+      "l1_full": 0.001655520056374371,
+      "psnr_reference_foreground_db": 17.513168334960938,
+      "l1_reference_foreground": 0.07609368115663528,
+      "reference_foreground_fraction": 0.014058751985430717
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_267.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 267,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_267.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_267.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8398535078839007,
+          0.5423183796210282,
+          -0.023170248603097115,
+          0.020484446798327574
+        ],
+        [
+          0.5192039936641977,
+          -0.8150446174896311,
+          -0.25715653688819323,
+          0.0462622720376793
+        ],
+        [
+          -0.15834550280401113,
+          0.20394373397190438,
+          -0.9660919496172929,
+          0.9548861575750355
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 35.7229118347168,
+      "ssim_full": 0.9954679608345032,
+      "l1_full": 0.0014715840807184577,
+      "psnr_reference_foreground_db": 18.856813430786133,
+      "l1_reference_foreground": 0.08799192309379578,
+      "reference_foreground_fraction": 0.011205708608031273
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_267.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 267,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_267.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_267.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.8464696186319371,
+          0.531357800580484,
+          -0.03388321849195672,
+          0.028534218065778216
+        ],
+        [
+          0.5315670933762785,
+          -0.8470099723580734,
+          -0.003245298980171814,
+          0.11375945489744935
+        ],
+        [
+          -0.03042383888660501,
+          -0.015264156977910143,
+          -0.999420529876766,
+          0.9928541744353399
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.983417510986328,
+      "ssim_full": 0.9958346486091614,
+      "l1_full": 0.002205423079431057,
+      "psnr_reference_foreground_db": 9.806441307067871,
+      "l1_reference_foreground": 0.22903785109519958,
+      "reference_foreground_fraction": 0.0053990185260772705
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_285.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 285,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_285.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_285.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.5514546006033263,
+          0.8341848077041931,
+          -0.005790515429982786,
+          0.10267357948143074
+        ],
+        [
+          0.11386243293029881,
+          -0.08214381410268952,
+          -0.9900948137283905,
+          0.10173883820582164
+        ],
+        [
+          -0.8263977068219758,
+          0.5453330178892353,
+          -0.14028089591672535,
+          0.7369103399215252
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.220123291015625,
+      "ssim_full": 0.9911306500434875,
+      "l1_full": 0.0035504603292793036,
+      "psnr_reference_foreground_db": 21.36526107788086,
+      "l1_reference_foreground": 0.04537138342857361,
+      "reference_foreground_fraction": 0.027419859543442726
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_285.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 285,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_285.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_285.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6015597470717249,
+          0.798821735673507,
+          0.003115336028276918,
+          0.03221052280135907
+        ],
+        [
+          0.4701926123993625,
+          -0.3509245521346697,
+          -0.8097968053494311,
+          0.025622114823673936
+        ],
+        [
+          -0.6457900416916219,
+          0.4886059693911313,
+          -0.586702163561109,
+          0.8302612933112445
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.37784767150879,
+      "ssim_full": 0.9923022389411926,
+      "l1_full": 0.0035690334625542164,
+      "psnr_reference_foreground_db": 12.962890625,
+      "l1_reference_foreground": 0.12203977257013321,
+      "reference_foreground_fraction": 0.016819411888718605
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_285.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 285,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_285.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_285.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6599151302161267,
+          0.7492557475537099,
+          0.055927146088146217,
+          -0.08224278782101399
+        ],
+        [
+          0.6546268020292983,
+          -0.536842434686457,
+          -0.5322254695002966,
+          0.0113890902253454
+        ],
+        [
+          -0.3687489267465436,
+          0.3878350487999356,
+          -0.8447533391148117,
+          0.8872804444765496
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.939165115356445,
+      "ssim_full": 0.9940035939216614,
+      "l1_full": 0.002372547285631299,
+      "psnr_reference_foreground_db": 16.967390060424805,
+      "l1_reference_foreground": 0.08188575506210327,
+      "reference_foreground_fraction": 0.013622148893773556
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_285.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 285,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_285.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_285.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6291393726954998,
+          0.7769470920105339,
+          -0.023170367728825306,
+          0.020491129868065686
+        ],
+        [
+          0.7472548028834148,
+          -0.6127648040677928,
+          -0.25715667299027783,
+          0.04626979955455013
+        ],
+        [
+          -0.21399511511243258,
+          0.14447321935962534,
+          -0.9660919105322652,
+          0.9548839663439074
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 36.02228546142578,
+      "ssim_full": 0.9956175088882446,
+      "l1_full": 0.0014709298266097903,
+      "psnr_reference_foreground_db": 18.979707717895508,
+      "l1_reference_foreground": 0.08912017941474915,
+      "reference_foreground_fraction": 0.011616667732596397
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_285.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 285,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_285.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_285.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6388404819857288,
+          0.7685927126173429,
+          -0.03388333938320632,
+          0.028540998560966563
+        ],
+        [
+          0.7689599096945398,
+          -0.6392887644939733,
+          -0.003245439004917863,
+          0.11376720564759218
+        ],
+        [
+          -0.02415565893964394,
+          -0.023981611774102757,
+          -0.9994205253235036,
+          0.9928538930415836
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.108224868774414,
+      "ssim_full": 0.9962353706359863,
+      "l1_full": 0.0018562775803729892,
+      "psnr_reference_foreground_db": 10.655827522277832,
+      "l1_reference_foreground": 0.20555217564105988,
+      "reference_foreground_fraction": 0.005499621387571096
+    },
+    {
+      "split": "validation",
+      "image_name": "N1_339.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 339,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N1_339.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N1_339.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.3490955570656184,
+          0.9370692382570324,
+          -0.005790919566965237,
+          0.10265302360889002
+        ],
+        [
+          0.1334594740602821,
+          0.04360035397521448,
+          -0.9900947317892307,
+          0.10173578276619732
+        ],
+        [
+          -0.9275348299770735,
+          -0.3464105250214284,
+          -0.1402814575550883,
+          0.7369332219986436
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 35.04912185668945,
+      "ssim_full": 0.9907627105712891,
+      "l1_full": 0.002253125887364149,
+      "psnr_reference_foreground_db": 24.066505432128906,
+      "l1_reference_foreground": 0.0349428653717041,
+      "reference_foreground_fraction": 0.04778733104467392
+    },
+    {
+      "split": "validation",
+      "image_name": "N2_339.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 339,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N2_339.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N2_339.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.29100074093954686,
+          0.9567177565773992,
+          0.0031149674385993146,
+          0.03218858970162755
+        ],
+        [
+          0.5605802294236336,
+          0.17314589447338682,
+          -0.8097964593688695,
+          0.025609333735216344
+        ],
+        [
+          -0.7752859957151177,
+          -0.23390518052518575,
+          -0.5867026430582183,
+          0.8302789299768722
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 27.76401710510254,
+      "ssim_full": 0.9854274988174438,
+      "l1_full": 0.004737411625683308,
+      "psnr_reference_foreground_db": 13.09540843963623,
+      "l1_reference_foreground": 0.13784727454185486,
+      "reference_foreground_fraction": 0.02852156013250351
+    },
+    {
+      "split": "validation",
+      "image_name": "N3_339.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 339,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N3_339.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N3_339.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.2165691365888759,
+          0.9746640443740578,
+          0.05592682434712126,
+          -0.08226629068522107
+        ],
+        [
+          0.8194678598530192,
+          0.21262413414983852,
+          -0.5322249564281482,
+          0.011371469855752436
+        ],
+        [
+          -0.5306319211516226,
+          -0.06943326422858512,
+          -0.8447536836696847,
+          0.8872900677301538
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.799442291259766,
+      "ssim_full": 0.9905018210411072,
+      "l1_full": 0.002223086776211858,
+      "psnr_reference_foreground_db": 18.351900100708008,
+      "l1_reference_foreground": 0.08144981414079666,
+      "reference_foreground_fraction": 0.02196560800075531
+    },
+    {
+      "split": "validation",
+      "image_name": "N4_339.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 339,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N4_339.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N4_339.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.2570763946111329,
+          0.9661132673199015,
+          -0.023170715185466637,
+          0.020468451389416012
+        ],
+        [
+          0.9353883352142879,
+          0.24273320556983655,
+          -0.25715608734547774,
+          0.04624966274912462
+        ],
+        [
+          -0.24281760578422748,
+          -0.08778237649013913,
+          -0.9660920580870949,
+          0.9548899383397088
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 41.379241943359375,
+      "ssim_full": 0.99644535779953,
+      "l1_full": 0.0007714322418905795,
+      "psnr_reference_foreground_db": 23.943382263183594,
+      "l1_reference_foreground": 0.047607243061065674,
+      "reference_foreground_fraction": 0.014577547088265419
+    },
+    {
+      "split": "validation",
+      "image_name": "N5_339.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 339,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\validation\\images\\N5_339.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\validation\\renders\\N5_339.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.24461026800525537,
+          0.9690292632760712,
+          -0.033883678977235494,
+          0.02851806090822033
+        ],
+        [
+          0.9696078305698439,
+          0.24464285391468363,
+          -0.003244830676636404,
+          0.11374650531175437
+        ],
+        [
+          0.005145064046083281,
+          -0.03364759936628605,
+          -0.9994205157854462,
+          0.9928548036694752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.07452392578125,
+      "ssim_full": 0.9967148303985596,
+      "l1_full": 0.0012851579813286662,
+      "psnr_reference_foreground_db": 11.557408332824707,
+      "l1_reference_foreground": 0.16588734090328217,
+      "reference_foreground_fraction": 0.00554795004427433
+    },
+    {
+      "split": "test",
+      "image_name": "N1_9.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 9,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_9.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_9.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.7735125510079155,
+          0.6337545228672435,
+          -0.005791215635746808,
+          0.10265365349664021
+        ],
+        [
+          0.09334212961368196,
+          0.1048788671869332,
+          -0.9900947783201205,
+          0.10173920027482974
+        ],
+        [
+          -0.626869667692105,
+          -0.7663913021185058,
+          -0.1402811169213164,
+          0.7369092439019787
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.674049377441406,
+      "ssim_full": 0.9900084137916565,
+      "l1_full": 0.0022738364059478045,
+      "psnr_reference_foreground_db": 23.411685943603516,
+      "l1_reference_foreground": 0.03597254678606987,
+      "reference_foreground_fraction": 0.047458890825510025
+    },
+    {
+      "split": "test",
+      "image_name": "N2_9.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 9,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_9.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_9.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.7332178659530879,
+          0.6799866616318953,
+          0.003114650848879641,
+          0.03219070289138842
+        ],
+        [
+          0.3971042984816223,
+          0.431899942588068,
+          -0.8097966508450394,
+          0.025623519068182388
+        ],
+        [
+          -0.5519961387316208,
+          -0.5925205309481982,
+          -0.5867023804538782,
+          0.8302594021505422
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 26.84706687927246,
+      "ssim_full": 0.9848315715789795,
+      "l1_full": 0.005273484159260988,
+      "psnr_reference_foreground_db": 12.311506271362305,
+      "l1_reference_foreground": 0.1476614624261856,
+      "reference_foreground_fraction": 0.02855410799384117
+    },
+    {
+      "split": "test",
+      "image_name": "N3_9.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 9,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_9.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_9.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6779520678251941,
+          0.7329755944648363,
+          0.05592648433849129,
+          -0.08226234343063799
+        ],
+        [
+          0.6008835823618248,
+          0.5963851401463568,
+          -0.5322252202410469,
+          0.011391824679670925
+        ],
+        [
+          -0.42346182139546407,
+          -0.32721788235292215,
+          -0.8447535399682595,
+          0.8872775327563601
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.1897087097168,
+      "ssim_full": 0.9897428750991821,
+      "l1_full": 0.002554811304435134,
+      "psnr_reference_foreground_db": 16.440902709960938,
+      "l1_reference_foreground": 0.09775441139936447,
+      "reference_foreground_fraction": 0.022137224674224854
+    },
+    {
+      "split": "test",
+      "image_name": "N4_9.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 9,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_9.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_9.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.7086412643602084,
+          0.7051883870395157,
+          -0.023171042932330358,
+          0.020471412695669475
+        ],
+        [
+          0.6858675753877811,
+          0.680776219392781,
+          -0.2571563884894936,
+          0.046272888940318446
+        ],
+        [
+          -0.16556940380895346,
+          -0.19812389531270336,
+          -0.9660919700672752,
+          0.9548837093790086
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 41.67499923706055,
+      "ssim_full": 0.9967498183250427,
+      "l1_full": 0.0006997944437898695,
+      "psnr_reference_foreground_db": 25.067440032958984,
+      "l1_reference_foreground": 0.04073154926300049,
+      "reference_foreground_fraction": 0.014840560965240002
+    },
+    {
+      "split": "test",
+      "image_name": "N5_9.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 9,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_9.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_9.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6993399226446257,
+          0.7139856766212759,
+          -0.0338840106107346,
+          0.028521329041968926
+        ],
+        [
+          0.7144691234204793,
+          0.6996594462627643,
+          -0.003245140067037698,
+          0.11377051192094904
+        ],
+        [
+          0.021390284574573464,
+          -0.026478535362474884,
+          -0.9994205035373634,
+          0.9928546385625941
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.34722900390625,
+      "ssim_full": 0.9962643384933472,
+      "l1_full": 0.0017657657153904438,
+      "psnr_reference_foreground_db": 10.561147689819336,
+      "l1_reference_foreground": 0.19544652104377747,
+      "reference_foreground_fraction": 0.005626525729894638
+    },
+    {
+      "split": "test",
+      "image_name": "N1_45.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 45,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_45.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_45.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9984853267207895,
+          0.054712998972713485,
+          -0.005791378651932126,
+          0.10264896737691022
+        ],
+        [
+          0.013400959414063093,
+          0.1397592424509046,
+          -0.9900948280020111,
+          0.10173876668397941
+        ],
+        [
+          -0.053361658614222596,
+          -0.9886727678524182,
+          -0.14028075953949648,
+          0.7369126912633935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.81776428222656,
+      "ssim_full": 0.9900315403938293,
+      "l1_full": 0.0024377130903303623,
+      "psnr_reference_foreground_db": 21.56048011779785,
+      "l1_reference_foreground": 0.04436447098851204,
+      "reference_foreground_fraction": 0.04359390214085579
+    },
+    {
+      "split": "test",
+      "image_name": "N2_45.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 45,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_45.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_45.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9932655638551086,
+          0.11581804592120588,
+          0.0031144660195372726,
+          0.03218581232781448
+        ],
+        [
+          0.06544622528827274,
+          0.5830487478794233,
+          -0.8097968567435623,
+          0.025621662836841086
+        ],
+        [
+          -0.0956049750541783,
+          -0.8041395014767219,
+          -0.586702097243277,
+          0.830261984555044
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 27.700841903686523,
+      "ssim_full": 0.9878907203674316,
+      "l1_full": 0.0044992719776928425,
+      "psnr_reference_foreground_db": 12.815312385559082,
+      "l1_reference_foreground": 0.1351216733455658,
+      "reference_foreground_fraction": 0.02550610527396202
+    },
+    {
+      "split": "test",
+      "image_name": "N3_45.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 45,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_45.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_45.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9799533220515333,
+          0.1912164703262219,
+          0.055926273576425024,
+          -0.08226745654864427
+        ],
+        [
+          0.1327773598099476,
+          0.8361256958655825,
+          -0.532225509944042,
+          0.011389320387008461
+        ],
+        [
+          -0.14853167784033053,
+          -0.5141304136007492,
+          -0.84475337139822,
+          0.8872788041974278
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.32362747192383,
+      "ssim_full": 0.9919158220291138,
+      "l1_full": 0.0022858339361846447,
+      "psnr_reference_foreground_db": 16.15078353881836,
+      "l1_reference_foreground": 0.09652306139469147,
+      "reference_foreground_fraction": 0.019633004441857338
+    },
+    {
+      "split": "test",
+      "image_name": "N4_45.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 45,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_45.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_45.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.9883126429298574,
+          0.1506692187062841,
+          -0.023171239920167033,
+          0.02046641524986878
+        ],
+        [
+          0.1515306654154014,
+          0.9544154646788673,
+          -0.25715671918226846,
+          0.04627002069907821
+        ],
+        [
+          -0.01663061224867195,
+          -0.25766239018580184,
+          -0.9660918773180809,
+          0.9548846208325349
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 41.030494689941406,
+      "ssim_full": 0.9967697262763977,
+      "l1_full": 0.0007688415353186429,
+      "psnr_reference_foreground_db": 23.628662109375,
+      "l1_reference_foreground": 0.050297968089580536,
+      "reference_foreground_fraction": 0.013737875036895275
+    },
+    {
+      "split": "test",
+      "image_name": "N5_45.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 45,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_45.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_45.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.986000801994838,
+          0.1632613813744949,
+          -0.0338842119168822,
+          0.02851629535599698
+        ],
+        [
+          0.16346287999110223,
+          0.9865441468675623,
+          -0.003245480914882198,
+          0.11376757066032603
+        ],
+        [
+          0.032898409240432,
+          -0.008738857651095182,
+          -0.9994204956055298,
+          0.9928548459543916
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.31906509399414,
+      "ssim_full": 0.9959901571273804,
+      "l1_full": 0.0021512217354029417,
+      "psnr_reference_foreground_db": 9.829748153686523,
+      "l1_reference_foreground": 0.22706906497478485,
+      "reference_foreground_fraction": 0.005675183143466711
+    },
+    {
+      "split": "test",
+      "image_name": "N1_96.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 96,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_96.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_96.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6695422590260173,
+          -0.7427513882814223,
+          -0.005791250672992002,
+          0.10267157060814575
+        ],
+        [
+          -0.1003575475262353,
+          0.09818562185253434,
+          -0.9900949178315939,
+          0.10173744626566805
+        ],
+        [
+          0.7359629922984289,
+          -0.6623291922204928,
+          -0.14028013080865023,
+          0.73692112551369
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.24020767211914,
+      "ssim_full": 0.992914080619812,
+      "l1_full": 0.0020813550800085068,
+      "psnr_reference_foreground_db": 23.741535186767578,
+      "l1_reference_foreground": 0.03240811452269554,
+      "reference_foreground_fraction": 0.026224462315440178
+    },
+    {
+      "split": "test",
+      "image_name": "N2_96.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 96,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_96.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_96.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.7138218651067385,
+          -0.7003203869970979,
+          0.0031145548273294067,
+          0.03220785000692025
+        ],
+        [
+          -0.4126834503802439,
+          0.4170381411000912,
+          -0.8097972330466665,
+          0.025615912194304147
+        ],
+        [
+          0.5658186234808769,
+          -0.5793362964841883,
+          -0.5867015773783044,
+          0.8302700503442124
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 26.55679702758789,
+      "ssim_full": 0.9912318587303162,
+      "l1_full": 0.00472726346924901,
+      "psnr_reference_foreground_db": 10.41201114654541,
+      "l1_reference_foreground": 0.18355289101600647,
+      "reference_foreground_fraction": 0.016683630645275116
+    },
+    {
+      "split": "test",
+      "image_name": "N3_96.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 96,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_96.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_96.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.7641444544780455,
+          -0.6426161375285553,
+          0.05592631293346078,
+          -0.08224627529110973
+        ],
+        [
+          -0.5673716206036852,
+          0.6283509127412015,
+          -0.5322260559112516,
+          0.011380172724931636
+        ],
+        [
+          0.30687570256375535,
+          -0.43842859195675143,
+          -0.8447530248130646,
+          0.8872859778124617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.739547729492188,
+      "ssim_full": 0.99396151304245,
+      "l1_full": 0.002700294367969036,
+      "psnr_reference_foreground_db": 12.679095268249512,
+      "l1_reference_foreground": 0.12329582870006561,
+      "reference_foreground_fraction": 0.013628724031150341
+    },
+    {
+      "split": "test",
+      "image_name": "N4_96.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 96,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_96.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_96.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.7378360107751166,
+          -0.674582180248903,
+          -0.023171173774725003,
+          0.020488085061296776
+        ],
+        [
+          -0.6476594873019038,
+          0.7172219250452361,
+          -0.25715734238446464,
+          0.04625957724521418
+        ],
+        [
+          0.19009263455299177,
+          -0.17473291711936245,
+          -0.9660917130188318,
+          0.9548868879207407
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 38.56531524658203,
+      "ssim_full": 0.9966417551040649,
+      "l1_full": 0.001019350253045559,
+      "psnr_reference_foreground_db": 20.30689239501953,
+      "l1_reference_foreground": 0.07316168397665024,
+      "reference_foreground_fraction": 0.011515079066157341
+    },
+    {
+      "split": "test",
+      "image_name": "N5_96.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 96,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_96.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_96.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.7461846691603509,
+          -0.6648761565996671,
+          -0.033884154044521504,
+          0.028537820228588417
+        ],
+        [
+          -0.6651724917471216,
+          0.7466826761667752,
+          -0.0032461262064535845,
+          0.11375661651106221
+        ],
+        [
+          0.0274589827375949,
+          0.020116597567122363,
+          -0.9994204954719205,
+          0.9928541584817039
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.98225975036621,
+      "ssim_full": 0.9963399767875671,
+      "l1_full": 0.0015990602551028132,
+      "psnr_reference_foreground_db": 10.921972274780273,
+      "l1_reference_foreground": 0.19968901574611664,
+      "reference_foreground_fraction": 0.00549468956887722
+    },
+    {
+      "split": "test",
+      "image_name": "N1_102.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 102,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_102.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_102.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.5921646482455393,
+          -0.8057961863670474,
+          -0.005790976131853641,
+          0.10265648295468219
+        ],
+        [
+          -0.10964534132656774,
+          0.08769179168509249,
+          -0.9900949695844531,
+          0.10173973000833425
+        ],
+        [
+          0.7983225717049576,
+          -0.5856642858390649,
+          -0.14027977687108534,
+          0.7369057533132793
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.136741638183594,
+      "ssim_full": 0.9923074841499329,
+      "l1_full": 0.002410382265225053,
+      "psnr_reference_foreground_db": 23.75933837890625,
+      "l1_reference_foreground": 0.03302431106567383,
+      "reference_foreground_fraction": 0.026821831241250038
+    },
+    {
+      "split": "test",
+      "image_name": "N2_102.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 102,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_102.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_102.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6404535044616427,
+          -0.7679906292400948,
+          0.0031148069288858913,
+          0.03219374301598679
+        ],
+        [
+          -0.45220092402853207,
+          0.3738213630096263,
+          -0.809797451752824,
+          0.025625533853380955
+        ],
+        [
+          0.6207524731570085,
+          -0.5200461344506171,
+          -0.5867012741697674,
+          0.8302567246623732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 26.431163787841797,
+      "ssim_full": 0.990913987159729,
+      "l1_full": 0.004870514385402203,
+      "psnr_reference_foreground_db": 10.363593101501465,
+      "l1_reference_foreground": 0.18390271067619324,
+      "reference_foreground_fraction": 0.016790151596069336
+    },
+    {
+      "split": "test",
+      "image_name": "N3_102.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 102,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_102.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_102.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6962777901815073,
+          -0.7155902888847311,
+          0.05592653532827165,
+          -0.08225906358768828
+        ],
+        [
+          -0.6271837054838088,
+          0.5686613042607952,
+          -0.5322263809808857,
+          0.011394579343741329
+        ],
+        [
+          0.34905277319562455,
+          -0.40565362008772893,
+          -0.8447528052833947,
+          0.8872760749786167
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.69411849975586,
+      "ssim_full": 0.9936567544937134,
+      "l1_full": 0.002751347841694951,
+      "psnr_reference_foreground_db": 12.768861770629883,
+      "l1_reference_foreground": 0.12334468960762024,
+      "reference_foreground_fraction": 0.01406203955411911
+    },
+    {
+      "split": "test",
+      "image_name": "N4_102.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 102,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_102.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_102.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6669137891912698,
+          -0.7447745333692376,
+          -0.023170935051853532,
+          0.020474569379820895
+        ],
+        [
+          -0.7159309509415892,
+          0.6490861143988079,
+          -0.25715771343385774,
+          0.04627601545658905
+        ],
+        [
+          0.20656444822479622,
+          -0.15491323552005756,
+          -0.9660916199772632,
+          0.9548828544515013
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 38.60715866088867,
+      "ssim_full": 0.996601402759552,
+      "l1_full": 0.001037734211422503,
+      "psnr_reference_foreground_db": 20.255022048950195,
+      "l1_reference_foreground": 0.07464340329170227,
+      "reference_foreground_fraction": 0.011864887550473213
+    },
+    {
+      "split": "test",
+      "image_name": "N5_102.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 102,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_102.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_102.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6761884231011365,
+          -0.7359491126487597,
+          -0.03388392030893422,
+          0.028524526528225402
+        ],
+        [
+          -0.7362936013662137,
+          0.6766544116080302,
+          -0.00324651175301677,
+          0.11377371226111786
+        ],
+        [
+          0.02531697160345172,
+          0.02275326004981925,
+          -0.9994205021440852,
+          0.9928545710029302
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.49715805053711,
+      "ssim_full": 0.9965038895606995,
+      "l1_full": 0.0014607894700020552,
+      "psnr_reference_foreground_db": 11.317481994628906,
+      "l1_reference_foreground": 0.1870294064283371,
+      "reference_foreground_fraction": 0.00538718281313777
+    },
+    {
+      "split": "test",
+      "image_name": "N1_105.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 105,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_105.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_105.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.5483729240051933,
+          -0.8362138485275248,
+          -0.005791005852244735,
+          0.10265777401155657
+        ],
+        [
+          -0.11416386261474191,
+          0.0817231342536891,
+          -0.9900949155513505,
+          0.10173798975936454
+        ],
+        [
+          0.828404338889456,
+          -0.542280120287053,
+          -0.14028015700940535,
+          0.7369177702591745
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.40363311767578,
+      "ssim_full": 0.992708146572113,
+      "l1_full": 0.002134472131729126,
+      "psnr_reference_foreground_db": 24.031221389770508,
+      "l1_reference_foreground": 0.032674700021743774,
+      "reference_foreground_fraction": 0.0284706000238657
+    },
+    {
+      "split": "test",
+      "image_name": "N2_105.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 105,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_105.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_105.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.5986082175806526,
+          -0.8010358917432405,
+          0.003114800800394336,
+          0.03219428761656884
+        ],
+        [
+          -0.4714835061120924,
+          0.3491872799313361,
+          -0.8097972258524992,
+          0.025618354147933675
+        ],
+        [
+          0.6475889941229411,
+          -0.486219851171533,
+          -0.5867015860022626,
+          0.8302665865852523
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 26.657697677612305,
+      "ssim_full": 0.9907515645027161,
+      "l1_full": 0.004723188932985067,
+      "psnr_reference_foreground_db": 10.536735534667969,
+      "l1_reference_foreground": 0.1796521544456482,
+      "reference_foreground_fraction": 0.01797996088862419
+    },
+    {
+      "split": "test",
+      "image_name": "N3_105.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 105,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_105.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_105.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6571461358070221,
+          -0.7516855567526362,
+          0.055926558658465436,
+          -0.08225945222939736
+        ],
+        [
+          -0.6566026750582041,
+          0.5344233840583494,
+          -0.5322260550537082,
+          0.011384225925001434
+        ],
+        [
+          0.37017817777431095,
+          -0.38647182347630826,
+          -0.8447530090852523,
+          0.8872825370186193
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.802186965942383,
+      "ssim_full": 0.9935585856437683,
+      "l1_full": 0.0027222458738833666,
+      "psnr_reference_foreground_db": 12.845199584960938,
+      "l1_reference_foreground": 0.12271615862846375,
+      "reference_foreground_fraction": 0.014465437270700932
+    },
+    {
+      "split": "test",
+      "image_name": "N4_105.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 105,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_105.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_105.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6262683435562838,
+          -0.7792631583568441,
+          -0.023170927624606354,
+          0.020474683445727365
+        ],
+        [
+          -0.7495104240603316,
+          0.6100034639163916,
+          -0.2571573413980364,
+          0.04626420779940693
+        ],
+        [
+          0.21452758816564887,
+          -0.1436826504408963,
+          -0.966091719185145,
+          0.9548859638732827
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 38.245216369628906,
+      "ssim_full": 0.9964473247528076,
+      "l1_full": 0.0010795549023896456,
+      "psnr_reference_foreground_db": 19.977699279785156,
+      "l1_reference_foreground": 0.07668741792440414,
+      "reference_foreground_fraction": 0.011973380111157894
+    },
+    {
+      "split": "test",
+      "image_name": "N5_105.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 105,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_105.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_105.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.6360002026606083,
+          -0.7709446303057067,
+          -0.033883907957358406,
+          0.02852448398000336
+        ],
+        [
+          -0.7713134760645124,
+          0.636447157509383,
+          -0.0032461268469592642,
+          0.11376150159589551
+        ],
+        [
+          0.02406790096672473,
+          0.024070577496711966,
+          -0.9994205038131001,
+          0.9928545822924587
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.60179138183594,
+      "ssim_full": 0.9965604543685913,
+      "l1_full": 0.0014341226778924465,
+      "psnr_reference_foreground_db": 11.392972946166992,
+      "l1_reference_foreground": 0.18407042324543,
+      "reference_foreground_fraction": 0.005464114248752594
+    },
+    {
+      "split": "test",
+      "image_name": "N1_108.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 108,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_108.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_108.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.5022619071989272,
+          -0.8646961562559111,
+          -0.005790849087088523,
+          0.10264649380109885
+        ],
+        [
+          -0.11842371410836748,
+          0.07541748684751773,
+          -0.9900949583824697,
+          0.1017410175879877
+        ],
+        [
+          0.8565680361265392,
+          -0.4966012082484882,
+          -0.14027986117923846,
+          0.7368968937669895
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.323238372802734,
+      "ssim_full": 0.9929999113082886,
+      "l1_full": 0.0019629239104688168,
+      "psnr_reference_foreground_db": 24.638225555419922,
+      "l1_reference_foreground": 0.030838800594210625,
+      "reference_foreground_fraction": 0.029591040685772896
+    },
+    {
+      "split": "test",
+      "image_name": "N2_108.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 108,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_108.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_108.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.5543293386553987,
+          -0.8322915843988871,
+          0.0031149389494842146,
+          0.0321843215430376
+        ],
+        [
+          -0.48970961522610046,
+          0.3231294689276371,
+          -0.8097974061860462,
+          0.025631091051686483
+        ],
+        [
+          0.6729810376682045,
+          -0.4504198761703733,
+          -0.5867013363626274,
+          0.830248960256047
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 26.84659767150879,
+      "ssim_full": 0.9907090663909912,
+      "l1_full": 0.004623576998710632,
+      "psnr_reference_foreground_db": 10.710826873779297,
+      "l1_reference_foreground": 0.17466001212596893,
+      "reference_foreground_fraction": 0.01827782392501831
+    },
+    {
+      "split": "test",
+      "image_name": "N3_108.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 108,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_108.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_108.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.615455059023039,
+          -0.786185269265057,
+          0.05592667264890484,
+          -0.08226771160637782
+        ],
+        [
+          -0.6845929174385803,
+          0.4980639329191018,
+          -0.5322263203920776,
+          0.011402972247826049
+        ],
+        [
+          0.3905734344728034,
+          -0.3658483854218675,
+          -0.8447528343653734,
+          0.8872701840071426
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.11861801147461,
+      "ssim_full": 0.9935499429702759,
+      "l1_full": 0.002589454175904393,
+      "psnr_reference_foreground_db": 13.07446002960205,
+      "l1_reference_foreground": 0.11910402029752731,
+      "reference_foreground_fraction": 0.015067081898450851
+    },
+    {
+      "split": "test",
+      "image_name": "N4_108.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 108,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_108.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_108.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.5831284670835616,
+          -0.8120494473146257,
+          -0.023170800434750786,
+          0.020465491547157072
+        ],
+        [
+          -0.7814591388684484,
+          0.5684993933793955,
+          -0.25715764426950904,
+          0.04628560446571778
+        ],
+        [
+          0.22199730889305677,
+          -0.1318489091470657,
+          -0.9660916416163478,
+          0.954880492996612
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 38.19034194946289,
+      "ssim_full": 0.9964154362678528,
+      "l1_full": 0.0010913640726357698,
+      "psnr_reference_foreground_db": 19.93116569519043,
+      "l1_reference_foreground": 0.07722584903240204,
+      "reference_foreground_fraction": 0.012107846327126026
+    },
+    {
+      "split": "test",
+      "image_name": "N5_108.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 108,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_108.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_108.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          -0.5932967232345038,
+          -0.8042704068443908,
+          -0.03388378481750761,
+          0.028515578290904356
+        ],
+        [
+          -0.8046629163359872,
+          0.5937230429197444,
+          -0.0032464410951655353,
+          0.11378370233611634
+        ],
+        [
+          0.02272860032789357,
+          0.025338922243821164,
+          -0.9994205069672408,
+          0.9928548160774258
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.85720443725586,
+      "ssim_full": 0.9966643452644348,
+      "l1_full": 0.0013727751793339849,
+      "psnr_reference_foreground_db": 11.610815048217773,
+      "l1_reference_foreground": 0.17769071459770203,
+      "reference_foreground_fraction": 0.0054693748243153095
+    },
+    {
+      "split": "test",
+      "image_name": "N1_150.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 150,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_150.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_150.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.20126317094354654,
+          -0.9795200904733312,
+          -0.00579036966576752,
+          0.10265621603703368
+        ],
+        [
+          -0.13856577452310834,
+          -0.022618394289953457,
+          -0.9900949117991441,
+          0.10174323529936113
+        ],
+        [
+          0.9696868887184975,
+          0.20007198854127864,
+          -0.1402802097538297,
+          0.7368800475183944
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.425941467285156,
+      "ssim_full": 0.9908825159072876,
+      "l1_full": 0.0024381268303841352,
+      "psnr_reference_foreground_db": 23.719614028930664,
+      "l1_reference_foreground": 0.0370853990316391,
+      "reference_foreground_fraction": 0.04545735567808151
+    },
+    {
+      "split": "test",
+      "image_name": "N2_150.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 150,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_150.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_150.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.14084235197054235,
+          -0.9900271339367659,
+          0.0031154390315204002,
+          0.03219506811908067
+        ],
+        [
+          -0.5805008062862446,
+          -0.0851309725199945,
+          -0.8097972162330639,
+          0.02564062827857483
+        ],
+        [
+          0.8019864374117718,
+          0.11224522968372906,
+          -0.586701595890808,
+          0.8302356640681094
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.679656982421875,
+      "ssim_full": 0.9881148338317871,
+      "l1_full": 0.0036525914911180735,
+      "psnr_reference_foreground_db": 13.408595085144043,
+      "l1_reference_foreground": 0.11866209656000137,
+      "reference_foreground_fraction": 0.02724331244826317
+    },
+    {
+      "split": "test",
+      "image_name": "N3_150.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 150,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_150.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_150.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.06453897112697775,
+          -0.9963467619547831,
+          0.055927195067249295,
+          -0.08225575675690533
+        ],
+        [
+          -0.8423806565151988,
+          -0.08444077412329848,
+          -0.5322260658728399,
+          0.011416377403096978
+        ],
+        [
+          0.5350042530063605,
+          -0.012762664599411078,
+          -0.8447529601353457,
+          0.887262398148597
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.702030181884766,
+      "ssim_full": 0.9912629127502441,
+      "l1_full": 0.002069627633318305,
+      "psnr_reference_foreground_db": 17.610790252685547,
+      "l1_reference_foreground": 0.08317162841558456,
+      "reference_foreground_fraction": 0.020861607044935226
+    },
+    {
+      "split": "test",
+      "image_name": "N4_150.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 150,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_150.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_150.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.10587848331013415,
+          -0.9941090908232909,
+          -0.02317028947674141,
+          0.02047680152210303
+        ],
+        [
+          -0.9615476587132469,
+          -0.09641677990152397,
+          -0.2571573537282075,
+          0.04630094531605161
+        ],
+        [
+          0.2534084584125382,
+          0.049506768182859075,
+          -0.9660917312083098,
+          0.9548760232108459
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 37.130760192871094,
+      "ssim_full": 0.9956855773925781,
+      "l1_full": 0.001311555621214211,
+      "psnr_reference_foreground_db": 20.386268615722656,
+      "l1_reference_foreground": 0.07513798028230667,
+      "reference_foreground_fraction": 0.013707628473639488
+    },
+    {
+      "split": "test",
+      "image_name": "N5_150.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 150,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_150.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_150.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.09311264960254294,
+          -0.9950788704854462,
+          -0.03388327016984985,
+          0.028527087108672522
+        ],
+        [
+          -0.9956555772634134,
+          -0.09305607994086795,
+          -0.00324614391207953,
+          0.11379952882420004
+        ],
+        [
+          7.712491988172074e-05,
+          0.034038323981178946,
+          -0.9994205253807323,
+          0.9928542632704486
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.59955978393555,
+      "ssim_full": 0.9964063763618469,
+      "l1_full": 0.0014488846063613892,
+      "psnr_reference_foreground_db": 11.797846794128418,
+      "l1_reference_foreground": 0.15879812836647034,
+      "reference_foreground_fraction": 0.005537429358810186
+    },
+    {
+      "split": "test",
+      "image_name": "N1_156.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 156,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_156.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_156.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.3051482946958245,
+          -0.952287241459951,
+          -0.00579033650380765,
+          0.10266671298611002
+        ],
+        [
+          -0.13534130569349867,
+          -0.03734817042245587,
+          -0.9900948667371597,
+          0.10174119229569056
+        ],
+        [
+          0.9426384509542401,
+          0.30290943187476393,
+          -0.14028052916887118,
+          0.7368939111075843
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.09906768798828,
+      "ssim_full": 0.990351140499115,
+      "l1_full": 0.0025707825552672148,
+      "psnr_reference_foreground_db": 23.47551727294922,
+      "l1_reference_foreground": 0.03788846358656883,
+      "reference_foreground_fraction": 0.04663960263133049
+    },
+    {
+      "split": "test",
+      "image_name": "N2_156.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 156,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_156.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_156.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.24620272703439314,
+          -0.9692133464366949,
+          0.003115491905251312,
+          0.03220468661517911
+        ],
+        [
+          -0.5680236327108302,
+          -0.14689426636938563,
+          -0.8097970283903194,
+          0.025632055003215415
+        ],
+        [
+          0.7853237357184744,
+          0.19760456370434248,
+          -0.5867018548806509,
+          0.8302475191257455
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.78484344482422,
+      "ssim_full": 0.9875169396400452,
+      "l1_full": 0.003709058975800872,
+      "psnr_reference_foreground_db": 13.631710052490234,
+      "l1_reference_foreground": 0.11749796569347382,
+      "reference_foreground_fraction": 0.02780616097152233
+    },
+    {
+      "split": "test",
+      "image_name": "N3_156.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 156,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_156.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_156.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.17101713898153523,
+          -0.983679459175399,
+          0.05592727215737466,
+          -0.0822472987705056
+        ],
+        [
+          -0.8284671401710679,
+          -0.17429256599444304,
+          -0.532225797097289,
+          0.011403655815445557
+        ],
+        [
+          0.5332872920212354,
+          0.04468582588995626,
+          -0.8447531243701855,
+          0.8872709528305214
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.15256881713867,
+      "ssim_full": 0.9909270405769348,
+      "l1_full": 0.0020509662572294474,
+      "psnr_reference_foreground_db": 18.223024368286133,
+      "l1_reference_foreground": 0.08063486218452454,
+      "reference_foreground_fraction": 0.021239032968878746
+    },
+    {
+      "split": "test",
+      "image_name": "N4_156.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 156,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_156.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_156.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.21187824730322524,
+          -0.9770213656696789,
+          -0.023170225390987124,
+          0.020485896230341208
+        ],
+        [
+          -0.9456624841579586,
+          -0.19897919306233366,
+          -0.2571570469274786,
+          0.0462864303291432
+        ],
+        [
+          0.24663753642929584,
+          0.07639719728640809,
+          -0.9660918144104469,
+          0.9548796509299982
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 37.22954559326172,
+      "ssim_full": 0.9957390427589417,
+      "l1_full": 0.0013198513770475984,
+      "psnr_reference_foreground_db": 20.533119201660156,
+      "l1_reference_foreground": 0.07436063885688782,
+      "reference_foreground_fraction": 0.013916066847741604
+    },
+    {
+      "split": "test",
+      "image_name": "N5_156.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 156,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_156.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_156.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.19929003307155194,
+          -0.9793545891748199,
+          -0.033883202041128366,
+          0.0285359866701331
+        ],
+        [
+          -0.9799340332562089,
+          -0.19929564740361427,
+          -0.003245826889063933,
+          0.11378445288857918
+        ],
+        [
+          -0.0035739592274223533,
+          0.03385016378386401,
+          -0.999420528720141,
+          0.9928539933072992
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.930999755859375,
+      "ssim_full": 0.9962068796157837,
+      "l1_full": 0.0016187048749998212,
+      "psnr_reference_foreground_db": 11.429966926574707,
+      "l1_reference_foreground": 0.16747672855854034,
+      "reference_foreground_fraction": 0.005393429193645716
+    },
+    {
+      "split": "test",
+      "image_name": "N1_174.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 174,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_174.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_174.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.5793397811811463,
+          -0.8150655745407469,
+          -0.0057902624761543234,
+          0.1026505975753276
+        ],
+        [
+          -0.11766339965297215,
+          -0.07660019184412586,
+          -0.9900948111123238,
+          0.10173850462829137
+        ],
+        [
+          0.8065486608525776,
+          0.57428261318623,
+          -0.14028092482197702,
+          0.7369134479187385
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.498924255371094,
+      "ssim_full": 0.9893593192100525,
+      "l1_full": 0.0030530549120157957,
+      "psnr_reference_foreground_db": 23.31621551513672,
+      "l1_reference_foreground": 0.036910150200128555,
+      "reference_foreground_fraction": 0.04680529981851578
+    },
+    {
+      "split": "test",
+      "image_name": "N2_174.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 174,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_174.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_174.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.528293545025079,
+          -0.8490560778782534,
+          0.003115590286254755,
+          0.032187392582561536
+        ],
+        [
+          -0.49681498725654294,
+          -0.3120961651150117,
+          -0.8097967968310226,
+          0.025621031406668382
+        ],
+        [
+          0.6885352559761306,
+          0.4262625485994527,
+          -0.5867021739685168,
+          0.8302626192504402
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.620113372802734,
+      "ssim_full": 0.9857354164123535,
+      "l1_full": 0.004077990539371967,
+      "psnr_reference_foreground_db": 13.821382522583008,
+      "l1_reference_foreground": 0.11948221921920776,
+      "reference_foreground_fraction": 0.028402216732501984
+    },
+    {
+      "split": "test",
+      "image_name": "N3_174.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 174,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_174.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_174.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.4610253364123356,
+          -0.8856228119743395,
+          0.05592740023062319,
+          -0.08226594338941429
+        ],
+        [
+          -0.7367142895821599,
+          -0.41711881729844297,
+          -0.5322254670541441,
+          0.011388440321319249
+        ],
+        [
+          0.4946793857756216,
+          0.20416691006676882,
+          -0.8447533238303605,
+          0.887279288532954
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.23170471191406,
+      "ssim_full": 0.990231454372406,
+      "l1_full": 0.0021516287233680487,
+      "psnr_reference_foreground_db": 18.936330795288086,
+      "l1_reference_foreground": 0.0777294710278511,
+      "reference_foreground_fraction": 0.02167070470750332
+    },
+    {
+      "split": "test",
+      "image_name": "N4_174.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 174,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_174.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_174.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.4979483158576219,
+          -0.8668971222629555,
+          -0.02317011322294145,
+          0.02046795920382405
+        ],
+        [
+          -0.8409207047186286,
+          -0.4761541928326926,
+          -0.2571566701903188,
+          0.04626906658802693
+        ],
+        [
+          0.21189583079919952,
+          0.14753495877266956,
+          -0.9660919173815004,
+          0.9548846888447428
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 37.607540130615234,
+      "ssim_full": 0.995855987071991,
+      "l1_full": 0.0012335603823885322,
+      "psnr_reference_foreground_db": 21.471158981323242,
+      "l1_reference_foreground": 0.06550643593072891,
+      "reference_foreground_fraction": 0.014056450687348843
+    },
+    {
+      "split": "test",
+      "image_name": "N5_174.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 174,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_174.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_174.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.48665878067960605,
+          -0.8729348015423726,
+          -0.03388308491884158,
+          0.02851782514606009
+        ],
+        [
+          -0.8734852976532245,
+          -0.48683970864852416,
+          -0.0032454378253565465,
+          0.11376661078856161
+        ],
+        [
+          -0.013662575566006295,
+          0.031175797330603307,
+          -0.9994205339544032,
+          0.9928546532475333
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 31.100027084350586,
+      "ssim_full": 0.9960379004478455,
+      "l1_full": 0.0018681124784052372,
+      "psnr_reference_foreground_db": 10.840438842773438,
+      "l1_reference_foreground": 0.18394751846790314,
+      "reference_foreground_fraction": 0.005564388353377581
+    },
+    {
+      "split": "test",
+      "image_name": "N1_180.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 180,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_180.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_180.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6636189516754941,
+          -0.7480483679480453,
+          -0.005790180254942039,
+          0.10265029450126811
+        ],
+        [
+          -0.10874489544165178,
+          -0.08880755422099484,
+          -0.9900948267861361,
+          0.10173808532157214
+        ],
+        [
+          0.7401246075442319,
+          0.6576753435575571,
+          -0.14028081759080954,
+          0.7369166804741559
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.64431381225586,
+      "ssim_full": 0.9888730645179749,
+      "l1_full": 0.003165951231494546,
+      "psnr_reference_foreground_db": 22.825653076171875,
+      "l1_reference_foreground": 0.0405762679874897,
+      "reference_foreground_fraction": 0.047408588230609894
+    },
+    {
+      "split": "test",
+      "image_name": "N2_180.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 180,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_180.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_180.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6165233866309351,
+          -0.7873304302288218,
+          0.0031156657108627316,
+          0.03218688995064074
+        ],
+        [
+          -0.46037734858842405,
+          -0.36370556427709705,
+          -0.8097968630592309,
+          0.025619161933798318
+        ],
+        [
+          0.6387108975458429,
+          0.49782432257732934,
+          -0.5867020821563588,
+          0.8302652592350761
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.462392807006836,
+      "ssim_full": 0.9852295517921448,
+      "l1_full": 0.004204324446618557,
+      "psnr_reference_foreground_db": 13.789453506469727,
+      "l1_reference_foreground": 0.12002617865800858,
+      "reference_foreground_fraction": 0.028503477573394775
+    },
+    {
+      "split": "test",
+      "image_name": "N3_180.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 180,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_180.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_180.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.5535768898935681,
+          -0.8309180136742269,
+          0.05592746666390728,
+          -0.08226669293213294
+        ],
+        [
+          -0.6875936251451159,
+          -0.4939139136885804,
+          -0.5322255654556886,
+          0.011385741238200353
+        ],
+        [
+          0.4698591636177413,
+          0.2561724036981868,
+          -0.8447532574355247,
+          0.8872809827060764
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 33.963653564453125,
+      "ssim_full": 0.9899711608886719,
+      "l1_full": 0.0022048461250960827,
+      "psnr_reference_foreground_db": 18.87291717529297,
+      "l1_reference_foreground": 0.0777454748749733,
+      "reference_foreground_fraction": 0.021641772240400314
+    },
+    {
+      "split": "test",
+      "image_name": "N4_180.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 180,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_180.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_180.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.5882723942424365,
+          -0.8083308353223957,
+          -0.02317004184869449,
+          0.02046734414697382
+        ],
+        [
+          -0.7848483333404055,
+          -0.5638115668037508,
+          -0.2571567825103737,
+          0.04626597284366002
+        ],
+        [
+          0.19480421921780916,
+          0.16946320487143426,
+          -0.9660918891956611,
+          0.9548855649368617
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 37.67439270019531,
+      "ssim_full": 0.9959101676940918,
+      "l1_full": 0.0012021264992654324,
+      "psnr_reference_foreground_db": 21.595043182373047,
+      "l1_reference_foreground": 0.06327661126852036,
+      "reference_foreground_fraction": 0.014060395769774914
+    },
+    {
+      "split": "test",
+      "image_name": "N5_180.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 180,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_180.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_180.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.5776974954501972,
+          -0.8155473898195124,
+          -0.033883015054016835,
+          0.028517169578147733
+        ],
+        [
+          -0.8160752406242701,
+          -0.5779365605460922,
+          -0.0032455545278289102,
+          0.11376340415072483
+        ],
+        [
+          -0.016935329657562205,
+          0.02952603838535636,
+          -0.9994205359440318,
+          0.9928547224648275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.77104949951172,
+      "ssim_full": 0.9959923028945923,
+      "l1_full": 0.0019677106756716967,
+      "psnr_reference_foreground_db": 10.564614295959473,
+      "l1_reference_foreground": 0.19206459820270538,
+      "reference_foreground_fraction": 0.005645922850817442
+    },
+    {
+      "split": "test",
+      "image_name": "N1_186.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 186,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_186.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_186.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.7402232100783847,
+          -0.6723362789986929,
+          -0.005790267994008483,
+          0.10265600544232492
+        ],
+        [
+          -0.0985627837789356,
+          -0.09998797903754571,
+          -0.9900948347010677,
+          0.10173815124939212
+        ],
+        [
+          0.665097719823935,
+          0.7334618817567679,
+          -0.1402807581061047,
+          0.7369160431317504
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 32.57202911376953,
+      "ssim_full": 0.9885613322257996,
+      "l1_full": 0.003251778893172741,
+      "psnr_reference_foreground_db": 22.22248077392578,
+      "l1_reference_foreground": 0.043284762650728226,
+      "reference_foreground_fraction": 0.04784880951046944
+    },
+    {
+      "split": "test",
+      "image_name": "N2_186.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 186,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_186.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_186.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6976256570408231,
+          -0.7164556761127374,
+          0.003115574457388863,
+          0.0321926293893605
+        ],
+        [
+          -0.4185899712692961,
+          -0.41110999058326003,
+          -0.8097968952739953,
+          0.025619353211017493
+        ],
+        [
+          0.5814644259033642,
+          0.563630942912534,
+          -0.5867020381764486,
+          0.8302650409330354
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.40165138244629,
+      "ssim_full": 0.9851125478744507,
+      "l1_full": 0.004251854028552771,
+      "psnr_reference_foreground_db": 13.838775634765625,
+      "l1_reference_foreground": 0.1187458410859108,
+      "reference_foreground_fraction": 0.028418326750397682
+    },
+    {
+      "split": "test",
+      "image_name": "N3_186.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 186,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_186.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_186.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.639732180381752,
+          -0.7665604128077258,
+          0.055927371653403585,
+          -0.08226095764722596
+        ],
+        [
+          -0.6304842081387758,
+          -0.5650005000719376,
+          -0.5322256083711882,
+          0.011385789319612982
+        ],
+        [
+          0.439582075011743,
+          0.3052205242681257,
+          -0.8447532366874135,
+          0.8872813426988359
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.07228088378906,
+      "ssim_full": 0.9901680946350098,
+      "l1_full": 0.0021367515437304974,
+      "psnr_reference_foreground_db": 19.106365203857422,
+      "l1_reference_foreground": 0.0751369521021843,
+      "reference_foreground_fraction": 0.0216483473777771
+    },
+    {
+      "split": "test",
+      "image_name": "N4_186.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 186,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_186.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_186.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6717971530834548,
+          -0.7403726966574519,
+          -0.02317013493999443,
+          0.02047308892191113
+        ],
+        [
+          -0.7196572058629311,
+          -0.6449526107106633,
+          -0.2571568314998808,
+          0.04626602477110814
+        ],
+        [
+          0.17544825778138481,
+          0.18943178186796508,
+          -0.9660918739228713,
+          0.9548854225850679
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 37.76604461669922,
+      "ssim_full": 0.9960504174232483,
+      "l1_full": 0.0011704729404300451,
+      "psnr_reference_foreground_db": 21.653179168701172,
+      "l1_reference_foreground": 0.06185270845890045,
+      "reference_foreground_fraction": 0.014039025641977787
+    },
+    {
+      "split": "test",
+      "image_name": "N5_186.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 186,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_186.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_186.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.6620597429373198,
+          -0.7486847345326122,
+          -0.03388310876530386,
+          0.02852291333197801
+        ],
+        [
+          -0.7491838153877803,
+          -0.662354192869533,
+          -0.003245604590404845,
+          0.1137634167631317
+        ],
+        [
+          -0.020012684546988346,
+          0.02753346084278911,
+          -0.9994205326043897,
+          0.9928545366357724
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 30.542409896850586,
+      "ssim_full": 0.9959623217582703,
+      "l1_full": 0.002049752278253436,
+      "psnr_reference_foreground_db": 10.42991828918457,
+      "l1_reference_foreground": 0.1972244530916214,
+      "reference_foreground_fraction": 0.005611401982605457
+    },
+    {
+      "split": "test",
+      "image_name": "N1_228.png",
+      "camera": "N1",
+      "camera_id": 1,
+      "angle": 228,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N1_228.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N1_228.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2363.827771009742,
+          0.0,
+          1064.0211636833271
+        ],
+        [
+          0.0,
+          2354.1842801729636,
+          715.1333111965096
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9999629487076424,
+          -0.006369711333040105,
+          -0.0057903358666592675,
+          0.1026656026217714
+        ],
+        [
+          -0.006626540783992746,
+          -0.14024400801797685,
+          -0.9900947970635396,
+          0.10173301567014148
+        ],
+        [
+          0.0054945581399292245,
+          0.9900964826685265,
+          -0.14028102094816514,
+          0.7369519759737109
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 34.156898498535156,
+      "ssim_full": 0.9906250834465027,
+      "l1_full": 0.0024698632769286633,
+      "psnr_reference_foreground_db": 22.524070739746094,
+      "l1_reference_foreground": 0.040798965841531754,
+      "reference_foreground_fraction": 0.044544368982315063
+    },
+    {
+      "split": "test",
+      "image_name": "N2_228.png",
+      "camera": "N2",
+      "camera_id": 2,
+      "angle": 228,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N2_228.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N2_228.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2029.3830779935302,
+          0.0,
+          1029.6013052870928
+        ],
+        [
+          0.0,
+          2025.8743064949124,
+          707.7760806433611
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9977038656631275,
+          -0.0676556720265356,
+          0.0031155229878842023,
+          0.03219998349978183
+        ],
+        [
+          -0.03717694894278975,
+          -0.5855314837365424,
+          -0.809796737472181,
+          0.025597779815802135
+        ],
+        [
+          0.0566115792762876,
+          0.807821509738334,
+          -0.5867022562560362,
+          0.8302948763957889
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 28.94171905517578,
+      "ssim_full": 0.9890915155410767,
+      "l1_full": 0.0036018076352775097,
+      "psnr_reference_foreground_db": 13.869743347167969,
+      "l1_reference_foreground": 0.11316139250993729,
+      "reference_foreground_fraction": 0.02593054249882698
+    },
+    {
+      "split": "test",
+      "image_name": "N3_228.png",
+      "camera": "N3",
+      "camera_id": 3,
+      "angle": 228,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N3_228.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N3_228.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2110.929935800276,
+          0.0,
+          1033.3826323304838
+        ],
+        [
+          0.0,
+          2111.0199661533507,
+          735.3622031838537
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9880528444644556,
+          -0.14360957167104024,
+          0.05592734098950976,
+          -0.08225645127199392
+        ],
+        [
+          -0.0921927063018975,
+          -0.8415679716995912,
+          -0.5322253788708013,
+          0.01135439424633411
+        ],
+        [
+          0.12349931761118597,
+          0.5207107065673765,
+          -0.8447533833111738,
+          0.8873014347648072
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 35.84752655029297,
+      "ssim_full": 0.9936142563819885,
+      "l1_full": 0.0014668268850073218,
+      "psnr_reference_foreground_db": 19.534276962280273,
+      "l1_reference_foreground": 0.06496972590684891,
+      "reference_foreground_fraction": 0.019141167402267456
+    },
+    {
+      "split": "test",
+      "image_name": "N4_228.png",
+      "camera": "N4",
+      "camera_id": 4,
+      "angle": 228,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N4_228.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N4_228.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          2270.381388417079,
+          0.0,
+          1066.4802159873168
+        ],
+        [
+          0.0,
+          2327.4355722673367,
+          715.7085363719074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9944419078042904,
+          -0.10270557387690092,
+          -0.023170176891379048,
+          0.020479141205464887
+        ],
+        [
+          -0.1052047533788205,
+          -0.9606260763752547,
+          -0.2571565695337865,
+          0.0462301844334545
+        ],
+        [
+          0.004153536934096686,
+          0.2581648823571867,
+          -0.9660919426475085,
+          0.9548948294559386
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 37.91572952270508,
+      "ssim_full": 0.996252715587616,
+      "l1_full": 0.0011582443257793784,
+      "psnr_reference_foreground_db": 20.441495895385742,
+      "l1_reference_foreground": 0.07381089776754379,
+      "reference_foreground_fraction": 0.012840011157095432
+    },
+    {
+      "split": "test",
+      "image_name": "N5_228.png",
+      "camera": "N5",
+      "camera_id": 5,
+      "angle": 228,
+      "reference_path": "<SOURCE_ROOT>\\data\\ycb\\006_mustard_bottle\\prepared\\graphdeco_half\\evaluation\\test\\images\\N5_228.png",
+      "render_path": "<SOURCE_ROOT>\\outputs\\graphdeco_mustard_7000\\holdout_renders\\test\\renders\\N5_228.png",
+      "width": 2136,
+      "height": 1424,
+      "intrinsic": [
+        [
+          1835.5281179747672,
+          0.0,
+          1050.4668500989535
+        ],
+        [
+          0.0,
+          1842.1249258926641,
+          725.1054128336995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_from_world": [
+        [
+          0.9927416450498748,
+          -0.11539479415094561,
+          -0.0338831472346889,
+          0.028528489221015044
+        ],
+        [
+          -0.11556977246041428,
+          -0.9932940629569811,
+          -0.003245333243474836,
+          0.1137262878608902
+        ],
+        [
+          -0.03328143442093171,
+          0.007137645079017974,
+          -0.9994205321813292,
+          0.9928544797261388
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "psnr_full_db": 29.55364418029785,
+      "ssim_full": 0.9957740306854248,
+      "l1_full": 0.0023985912557691336,
+      "psnr_reference_foreground_db": 9.508340835571289,
+      "l1_reference_foreground": 0.23294690251350403,
+      "reference_foreground_fraction": 0.005567675922065973
+    }
+  ]
+}

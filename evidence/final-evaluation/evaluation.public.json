@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "evaluation_protocol": "freeze_estimate_hash_then_open_private_gt_and_run_separate_physx_oracle",
+  "frozen_estimate_sha256": "eff313c618e458f81061de8bc475f2c5843fe7b4f5ee951fdad5912db9591849",
+  "private_gt_sha256": "7049d0b6c6e40b0dadf10dfe2848ff1db0011f2b4f531c7088c729c0637e52f6",
+  "heldout_future_motion": {
+    "guided_slide": {
+      "position_rmse_m": 0.006038553696428131,
+      "final_position_error_m": 0.013260362119384842,
+      "maximum_position_error_m": 0.013260362119384842,
+      "samples": 55
+    },
+    "oblique_drop": {
+      "position_rmse_m": 0.009033321241813977,
+      "final_position_error_m": 0.015535394685617678,
+      "maximum_position_error_m": 0.02076657221379158,
+      "samples": 73
+    }
+  },
+  "parameter_relative_error_percent": {
+    "mass_kg": 27.566295705860444,
+    "static_friction": 33.20002279408993,
+    "dynamic_friction": 16.869142298891024,
+    "restitution": 25.375999362945354
+  },
+  "archive_note": "Hidden GT, estimates and absolute parameter errors omitted to prevent reconstructing the blinded answers."
+}

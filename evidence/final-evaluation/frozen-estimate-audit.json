@@ -1,0 +1,16 @@
+{
+  "status": "frozen_before_gt_evaluation",
+  "method": "semantic_material_prior_plus_action_generated_motion_plus_validated_active_measurements",
+  "active_mass_accepted": false,
+  "mass_equals_prior": true,
+  "gt_fields_read": false,
+  "frozen_sha256": "eff313c618e458f81061de8bc475f2c5843fe7b4f5ee951fdad5912db9591849",
+  "active_input_run_matched_by_sha256": "r1_contact_gs_unit_000_impulse_all_links",
+  "not_input": "r1_contact_gs_strict_v14",
+  "input_commitments": {
+    "physion_jsonl_sha256": "c80af7e348b2219d0aa360e6a95c861ce117865b2df80a71103ab6558cd9909d",
+    "geometry_manifest_sha256": "9a95bbb3df1ae13afa1d59ebb3006da260a9c177a342fcf2a9ac2b9c42914d17",
+    "motion_result_sha256": "2eccbb1ece1c88061bd43f26a669ab45c7423e7cf3357fc11268e368170f30cc",
+    "active_mass_result_sha256": "445c878121c6d05a245cb355cd0828d52f99f47a0c1db345d77008245b98d5c4"
+  }
+}
