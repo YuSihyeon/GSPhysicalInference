@@ -1,11 +1,22 @@
 # GS 기반 물성 추론과 R1 Pro 접촉 연구
 
 
-**독립 연구 저장소:** [GitHub](https://github.com/YuSihyeon/GSPhysicalInference) · [전체 데이터와 복원 범위](DATA_AND_RESTORE.md) · [영상 갤러리](https://yusihyeon.github.io/GSPhysicalInference/gallery.html)
+**독립 연구 저장소:** [GitHub](https://github.com/YuSihyeon/GSPhysicalInference) · [전체 데이터와 복원 범위](DATA_AND_RESTORE.md)
 
 이 자료는 **GS로 복원한 강체에 물성을 연결하고, 관측과 능동 실험으로 보지 않은 미래 운동을 예측하려는 후속 연구**다. 실제 연구실/mydesk의 공간 복원과 구분되는 **YCB mustard bottle·OmniGibson·PhysX·R1 Pro** 실험 계열이다. 분석 대상은 2026년 8월 말에 작성된 로컬 코드·보고서·결과이며, 2026-09-16에 선별 보존했다. 관련 연구는 각각 독립 저장소로 정리했으며 이 저장소는 해당 연구의 기록만 다룬다.
 
 핵심 결론은 세 가지다. **수동 관측을 추가한 물성 추론은 12개 세계의 미래 운동 오차를 줄였다. 적응적 탐색이 같은 예산의 고정 탐색보다 낫다는 주가설은 지지되지 않았다. 실제 최적화한 3DGS와 로봇 접촉 후속 실험은 존재하지만, 형상 정확도와 접촉 기반 질량 계측의 한계 때문에 고정밀 물리 디지털 트윈 완성으로 소개할 수 없다.**
+
+## 영상과 설명
+
+영상 제목이나 미리보기를 누르면 해당 MP4 파일을 열 수 있습니다.
+
+| 영상 | 설명 |
+|---|---|
+| [**실제 영상과 학습된 3DGS 렌더 비교**](evidence/optimized-gs/heldout_real_vs_3dgs.mp4) | YCB 물체의 실제 영상과 최적화한 Gaussian 렌더를 평가 시점에서 비교합니다. 외관 비교와 접촉·물성 추론의 정확도는 별도로 평가합니다. |
+| [**R1 Pro 접촉 시연**](evidence/r1-replication/r1_contact_replication.mp4) | 로봇 접촉이 물체 운동으로 전달되는 보존 시연입니다. 영중력·고정 자세 sweep·RGB-D 초기 형상의 실험 조건이며 자율 조작의 검증은 아닙니다. |
+| [**엄격 접촉 · 시뮬레이터 원본**](evidence/strict-contact/r1_controller_contact_raw.mp4) | 접촉 실험의 시뮬레이터 원본 영상입니다. 영상에서 접촉을 확인하는 것과 질량·마찰을 정확히 계측하는 것은 구분합니다. |
+| [**엄격 접촉 · GS 합성 시각화**](evidence/strict-contact/r1_gs_contact_composite.mp4) | GS를 합성한 접촉 시각화입니다. 원시 시뮬레이터 관측은 바로 위 영상에서 확인할 수 있습니다. |
 
 ## 1. 연구 질문과 설계 의도
 

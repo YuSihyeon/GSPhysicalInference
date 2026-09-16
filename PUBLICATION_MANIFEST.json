@@ -21,8 +21,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 21700,
-    "sha256": "ec9b4f73fa1940c2f07c1079490e6c3f150ffc93ffea7a153e7d599d86a0120c"
+    "bytes": 22834,
+    "sha256": "87d28018cdf3748be2906e1ce4f862277b541a7af376e200eeaeaae336ae9c4f"
   },
   {
     "path": "evidence/.gitignore",
@@ -263,15 +263,5 @@
     "path": "evidence/strict-contact/r1_gs_contact_composite.mp4",
     "bytes": 903287,
     "sha256": "558913cb559bd66691e6f8c2728b63e2a030e89591c28d8dff213f03f2b63ee9"
-  },
-  {
-    "path": "gallery.html",
-    "bytes": 3036,
-    "sha256": "7015e6b5a3fe22cca38a75f1ca28c888559151d501e3ff2aad0ef70f2a5c6f0d"
-  },
-  {
-    "path": "index.html",
-    "bytes": 156,
-    "sha256": "5772c06603ab12a0445bdf5b281526a5d107ab374e74bb88ae8074b0fc98740f"
   }
 ]
